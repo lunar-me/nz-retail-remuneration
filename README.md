@@ -2,6 +2,8 @@
 
 Synthetic-data-driven models and calculation engines for remuneration schemes, leave management, and workforce capacity planning in a New Zealand retail environment.
 
+> **Annotation:** A privacy-first, NZ retail workforce programme built entirely on synthetic data. It delivers auditable leave entitlements aligned to the Holidays Act 2003, transparent remuneration costing with what-if scenarios, demand-driven capacity planning, and an integrated scorecard — all reproducible via fixed seeds and versioned datasets.
+
 ## Overview
 
 This repository delivers a complete, privacy-safe, data-driven workforce programme built entirely on **synthetic data**. It provides:

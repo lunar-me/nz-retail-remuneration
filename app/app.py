@@ -26,6 +26,11 @@ import streamlit as st
 # Ensure app/ is on path so `import utils` works
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+# Generate pre-computed outputs if they are missing (e.g. on Streamlit Cloud,
+# where the git-ignored outputs/ directory is not deployed).
+import bootstrap  # noqa: E402
+bootstrap.ensure_outputs()
+
 import utils  # noqa: E402
 
 # ---------------------------------------------------------------------------

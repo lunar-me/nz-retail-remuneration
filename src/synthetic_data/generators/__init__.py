@@ -1,0 +1,1 @@
+"""Synthetic data generators for the NZ retail workforce programme."""

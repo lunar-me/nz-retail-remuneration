@@ -1,0 +1,651 @@
+employee_id,store_id,first_name,last_name,role,job_family,employment_type,start_date,contracted_hours_per_week,base_hourly_rate,insurance_enrolled,flexibility_preference,is_high_leave_balance,is_new_starter,is_high_flexibility
+1,7,Joanne,O'Brien,Store Management,Management,part_time,2024-11-11,30.0,44.78,True,0.254,False,False,False
+2,1,Gary,Turnbull,Grocery / Nightfill,Grocery,full_time,2025-04-05,39.6,26.49,True,0.214,False,False,False
+3,3,Paul,McEwen,Checkout / Front End,Checkout,full_time,2026-05-25,37.9,27.46,True,0.676,False,False,False
+4,1,Douglas,Stone,Grocery / Nightfill,Grocery,part_time,2022-05-24,15.4,27.48,True,0.49,False,False,False
+5,7,Gary,Goodwin,Checkout / Front End,Checkout,part_time,2026-05-25,15.6,25.97,True,0.419,False,False,False
+6,6,Douglas,Henderson,Checkout / Front End,Checkout,casual,2026-05-25,0.0,27.35,True,0.606,False,False,False
+7,7,Craig,Reid,Checkout / Front End,Checkout,part_time,2023-11-29,19.5,27.11,True,0.755,False,False,False
+8,8,Madison,Thomas,Grocery / Nightfill,Grocery,part_time,2026-05-25,23.1,25.86,False,0.3,False,False,False
+9,5,Mark,McIntosh,Fresh Foods,Fresh,part_time,2025-02-07,8.5,29.17,True,0.521,False,False,False
+10,11,Yvonne,Dobson,Grocery / Nightfill,Grocery,full_time,2025-08-09,35.8,25.68,True,0.952,False,False,False
+11,12,Nikau,Fox,Grocery / Nightfill,Grocery,full_time,2025-06-26,34.6,26.2,True,0.383,False,False,False
+12,2,Phoebe,Hughes,Other / Support,Support,part_time,2016-04-17,12.2,25.08,True,0.811,False,False,False
+13,12,Hamish,Anderson,Department Supervisor,Supervisor,full_time,2022-07-08,37.6,29.35,True,0.513,False,False,False
+14,3,Sonia,Steele,Fresh Foods,Fresh,part_time,2021-11-29,8.0,28.78,True,0.74,False,False,False
+15,3,Carl,Newman,Checkout / Front End,Checkout,part_time,2026-05-25,21.7,25.89,True,0.861,False,False,False
+16,7,Elizabeth,Tapp,Store Management,Management,casual,2024-10-15,18.0,38.31,True,0.783,False,False,False
+17,1,Blake,Stewart,Checkout / Front End,Checkout,part_time,2022-01-03,16.5,25.36,False,0.82,False,False,False
+18,5,Justin,Duncan,Grocery / Nightfill,Grocery,part_time,2025-12-22,8.0,25.97,True,0.367,False,False,False
+19,3,Julie,Schwass,Store Management,Management,casual,2019-10-16,4.0,44.89,True,0.865,False,False,False
+20,6,Gavin,Jones,Fresh Foods,Fresh,casual,2026-05-25,21.9,29.03,False,0.432,False,False,False
+21,10,Jacob,Baldick,Online / Click & Collect,Online,part_time,2023-08-12,8.0,25.25,True,0.677,False,False,False
+22,12,Christine,Low,Fresh Foods,Fresh,part_time,2024-07-28,15.9,27.59,True,0.985,False,False,True
+23,3,Heidi,Francis,Fresh Foods,Fresh,part_time,2022-03-03,10.9,27.1,True,0.897,False,False,True
+24,7,Ronald,Davies,Checkout / Front End,Checkout,full_time,2024-09-29,39.5,26.65,True,0.694,False,False,False
+25,6,Michelle,Norton,Checkout / Front End,Checkout,full_time,2023-07-25,35.8,26.07,True,0.986,False,False,True
+26,5,Mikayla,Johnston,Grocery / Nightfill,Grocery,full_time,2023-06-15,38.5,25.7,False,0.323,False,False,False
+27,8,Michael,Thomas,Checkout / Front End,Checkout,casual,2025-01-17,16.5,26.15,False,0.812,False,False,False
+28,12,Grant,Robson,Store Management,Management,part_time,2021-02-22,29.0,41.31,False,0.661,False,False,False
+29,5,Lisa,Herd,Checkout / Front End,Checkout,part_time,2021-12-07,16.8,26.25,True,0.873,False,False,False
+30,1,Trevor,Smith,Fresh Foods,Fresh,casual,2022-12-24,15.0,27.12,True,0.61,False,False,False
+31,11,Raymond,Ritchie,Department Supervisor,Supervisor,part_time,2024-01-28,9.1,32.91,True,0.861,False,False,True
+32,12,Anna,Day,Department Supervisor,Supervisor,part_time,2020-02-24,25.1,32.47,True,0.833,False,False,False
+33,4,Mereana,Dickson,Grocery / Nightfill,Grocery,full_time,2023-06-14,35.6,25.52,True,0.539,False,False,False
+34,7,Daniel,Read,Grocery / Nightfill,Grocery,full_time,2023-09-05,36.1,26.9,True,0.695,False,False,False
+35,11,Karen,Craven,Other / Support,Support,part_time,2022-05-12,17.9,29.2,True,0.478,False,False,False
+36,7,Jessica,Turnbull,Online / Click & Collect,Online,part_time,2017-04-08,8.6,25.54,True,0.982,False,False,False
+37,6,Maria,Williams,Department Supervisor,Supervisor,part_time,2026-05-25,19.4,31.5,True,0.427,False,False,False
+38,12,Jayden,McEwen,Store Management,Management,casual,2020-03-26,19.7,36.56,False,0.546,False,False,False
+39,10,Caleb,Hughes,Department Supervisor,Supervisor,part_time,2026-05-25,19.8,32.44,True,0.644,False,False,False
+40,7,Carter,Miles,Checkout / Front End,Checkout,part_time,2022-01-01,8.5,25.34,False,0.38,False,False,False
+41,2,Melissa,Oliver,Fresh Foods,Fresh,part_time,2017-08-28,17.3,28.02,True,0.693,False,False,False
+42,6,Nicholas,McLean,Checkout / Front End,Checkout,part_time,2021-02-17,22.5,25.39,True,0.975,False,False,False
+43,9,Holly,Allen,Fresh Foods,Fresh,full_time,2022-02-24,32.8,27.3,True,0.512,False,False,False
+44,4,Kenneth,Gilmore,Other / Support,Support,part_time,2024-06-28,11.6,29.72,True,0.707,False,False,False
+45,7,Elizabeth,Gray,Fresh Foods,Fresh,full_time,2022-08-06,39.7,26.72,True,0.015,False,False,False
+46,8,Brianna,Hayes,Grocery / Nightfill,Grocery,part_time,2023-07-03,19.6,27.13,True,0.611,False,False,False
+47,2,Tony,MacDonald,Checkout / Front End,Checkout,casual,2025-03-18,15.3,27.95,False,0.551,False,False,False
+48,7,James,Priest,Other / Support,Support,full_time,2023-08-16,40.0,29.31,True,0.44,False,False,False
+49,9,Ryan,Boyce,Checkout / Front End,Checkout,full_time,2022-01-23,38.7,25.08,True,0.858,False,False,False
+50,3,Sarah,Kelly,Checkout / Front End,Checkout,part_time,2025-02-24,21.9,27.37,False,0.895,False,False,True
+51,7,Levi,Buchanan,Checkout / Front End,Checkout,part_time,2025-04-11,30.0,24.61,True,0.581,False,False,False
+52,9,Richard,Dean,Checkout / Front End,Checkout,part_time,2026-05-25,16.7,25.88,True,0.537,False,False,False
+53,1,Renee,Gilbert,Grocery / Nightfill,Grocery,part_time,2021-06-12,13.2,27.11,True,0.198,False,False,False
+54,8,Patrick,Herd,Fresh Foods,Fresh,casual,2020-12-13,15.4,28.1,True,0.371,False,False,False
+55,4,Stephen,Paul,Checkout / Front End,Checkout,part_time,2021-12-15,20.6,26.36,True,0.831,False,False,False
+56,5,Heather,Nicholas,Checkout / Front End,Checkout,part_time,2019-08-10,14.8,25.86,True,0.156,False,False,False
+57,8,Ellie,Warner,Checkout / Front End,Checkout,casual,2022-06-01,3.7,27.34,False,0.451,False,False,False
+58,1,Caleb,Fletcher,Grocery / Nightfill,Grocery,full_time,2021-06-10,40.0,26.63,True,0.532,False,False,False
+59,1,Holly,Buchanan,Checkout / Front End,Checkout,full_time,2021-09-21,38.3,26.14,True,1.0,False,False,False
+60,6,Sean,Wood,Online / Click & Collect,Online,full_time,2022-12-28,35.7,28.12,True,0.789,False,False,False
+61,12,Bruce,Moore,Checkout / Front End,Checkout,part_time,2024-05-24,23.5,25.3,False,0.497,False,False,False
+62,1,Raewyn,Waters,Checkout / Front End,Checkout,part_time,2015-08-12,17.3,25.1,False,0.907,True,False,False
+63,10,Kevin,Davies,Grocery / Nightfill,Grocery,full_time,2024-02-22,36.9,26.43,False,0.457,False,False,False
+64,1,Matthew,McLean,Grocery / Nightfill,Grocery,part_time,2024-10-29,21.4,27.42,False,0.914,False,False,True
+65,6,Gregory,Day,Checkout / Front End,Checkout,full_time,2021-04-22,34.3,25.37,False,0.321,False,False,False
+66,6,Tracey,O'Neill,Checkout / Front End,Checkout,part_time,2021-11-21,20.1,25.37,True,0.856,False,False,False
+67,6,Richard,Guard,Store Management,Management,part_time,2026-05-25,29.5,34.23,False,0.531,False,False,False
+68,1,Reuben,Harper,Checkout / Front End,Checkout,part_time,2019-02-07,20.8,27.51,True,0.394,False,False,False
+69,10,Lucy,Boyce,Fresh Foods,Fresh,part_time,2022-12-31,15.7,26.02,True,0.572,False,False,False
+70,4,Thomas,O'Connell,Grocery / Nightfill,Grocery,part_time,2026-05-20,15.0,26.01,False,0.681,False,True,False
+71,10,Stephen,Price,Grocery / Nightfill,Grocery,part_time,2018-11-22,15.5,27.47,True,0.887,False,False,True
+72,8,Natasha,Ferguson,Grocery / Nightfill,Grocery,full_time,2020-09-10,36.9,24.54,True,0.742,False,False,False
+73,7,Glenda,Davey,Department Supervisor,Supervisor,full_time,2026-05-25,36.6,31.34,True,0.492,False,False,False
+74,4,Andrea,Turner,Department Supervisor,Supervisor,casual,2017-01-03,19.3,31.07,True,0.756,False,False,False
+75,8,David,Ferguson,Checkout / Front End,Checkout,casual,2020-08-03,0.0,27.33,False,0.717,False,False,False
+76,12,Wiremu,Moore,Grocery / Nightfill,Grocery,part_time,2022-09-23,23.2,25.57,True,0.607,False,False,False
+77,12,James,Kenny,Checkout / Front End,Checkout,full_time,2017-08-10,36.6,25.94,False,0.523,False,False,False
+78,11,Michael,Manson,Grocery / Nightfill,Grocery,casual,2022-03-09,15.0,25.0,True,0.653,False,False,False
+79,3,Neville,Johnston,Online / Click & Collect,Online,casual,2022-10-14,3.0,27.59,False,0.741,False,False,False
+80,8,Kevin,Dobson,Checkout / Front End,Checkout,part_time,2024-10-22,26.0,27.25,True,1.0,False,False,False
+81,5,Harrison,Williams,Grocery / Nightfill,Grocery,part_time,2020-10-31,25.5,24.91,False,0.827,False,False,False
+82,12,Thomas,Waghorn,Other / Support,Support,full_time,2021-03-03,39.9,26.66,True,0.835,False,False,False
+83,12,Jason,Wells,Checkout / Front End,Checkout,full_time,2022-08-25,33.7,27.63,True,1.0,False,False,False
+84,11,Scott,MacDonald,Grocery / Nightfill,Grocery,casual,2025-03-23,18.6,24.51,True,0.734,False,False,False
+85,2,Jeremy,Field,Online / Click & Collect,Online,part_time,2026-05-01,20.4,26.05,True,0.89,False,True,True
+86,4,Eden,Campbell,Checkout / Front End,Checkout,full_time,2022-12-02,33.5,26.44,True,0.775,False,False,False
+87,9,Mark,Millar,Checkout / Front End,Checkout,part_time,2026-05-25,17.9,25.67,False,0.398,False,False,False
+88,9,Vanessa,Hardie,Checkout / Front End,Checkout,part_time,2026-05-25,20.2,25.45,False,0.522,False,False,False
+89,5,Richard,Smith,Store Management,Management,full_time,2020-11-20,38.9,39.36,False,0.509,False,False,False
+90,2,Trevor,Little,Checkout / Front End,Checkout,casual,2026-05-25,13.4,25.14,True,0.762,False,False,False
+91,2,Cole,Simmons,Checkout / Front End,Checkout,casual,2022-01-14,14.3,26.35,True,0.9,False,False,True
+92,9,Xavier,Morrison,Checkout / Front End,Checkout,part_time,2024-03-23,26.8,26.97,False,0.65,False,False,False
+93,6,Megan,Barrett,Checkout / Front End,Checkout,part_time,2018-07-05,25.4,26.51,False,0.859,False,False,False
+94,6,Kathleen,Baker,Fresh Foods,Fresh,part_time,2024-04-10,8.0,25.42,True,0.81,False,False,False
+95,10,Noah,Baxter,Checkout / Front End,Checkout,part_time,2020-08-02,16.1,27.46,False,0.584,False,False,False
+96,1,Amy,Rowe,Fresh Foods,Fresh,part_time,2023-12-19,17.0,25.79,True,0.473,False,False,False
+97,10,Hugo,Anderson,Fresh Foods,Fresh,full_time,2022-05-02,33.1,28.44,False,0.87,False,False,False
+98,4,Peter,Phillips,Department Supervisor,Supervisor,part_time,2020-05-03,18.6,30.16,False,0.79,False,False,False
+99,12,Ashleigh,McNabb,Checkout / Front End,Checkout,full_time,2024-03-05,40.0,27.24,False,0.967,False,False,True
+100,12,Emma,Jordan,Store Management,Management,part_time,2019-07-05,11.5,35.3,True,0.551,False,False,False
+101,7,Daniel,Edwards,Fresh Foods,Fresh,part_time,2025-11-16,20.0,25.84,False,0.656,False,False,False
+102,4,Donald,Ramsay,Checkout / Front End,Checkout,full_time,2021-10-02,35.2,26.24,True,0.791,False,False,False
+103,3,Gareth,Holmes,Department Supervisor,Supervisor,full_time,2019-09-29,35.8,28.2,False,0.82,False,False,False
+104,3,David,Webby,Store Management,Management,part_time,2020-08-01,26.9,35.6,True,0.682,False,False,False
+105,12,Michael,Rowlands,Checkout / Front End,Checkout,full_time,2016-07-25,36.1,27.03,False,0.749,False,False,False
+106,3,Dylan,Smith,Store Management,Management,casual,2025-02-20,15.7,45.4,False,0.634,False,False,False
+107,6,Melissa,Mortimer,Grocery / Nightfill,Grocery,part_time,2026-05-25,8.0,24.74,True,0.472,False,False,False
+108,6,Adam,McIntosh,Fresh Foods,Fresh,part_time,2025-11-17,29.2,28.97,True,0.563,False,False,False
+109,9,Mareikura,Edwards,Other / Support,Support,part_time,2020-08-01,21.6,28.89,False,0.624,False,False,False
+110,11,Paul,Gill,Grocery / Nightfill,Grocery,full_time,2021-02-07,37.0,27.11,True,0.612,False,False,False
+111,7,Michael,McCallum,Department Supervisor,Supervisor,casual,2022-05-15,16.6,32.19,True,0.205,False,False,False
+112,10,Warren,MacDonald,Checkout / Front End,Checkout,part_time,2026-04-16,9.5,26.86,True,0.533,False,False,False
+113,7,Maria,Campbell,Department Supervisor,Supervisor,casual,2020-03-29,21.5,31.15,True,0.632,False,False,False
+114,6,Vicki,Powell,Fresh Foods,Fresh,full_time,2026-05-25,36.7,27.94,False,0.558,False,False,False
+115,2,Joshua,McLachlan,Checkout / Front End,Checkout,part_time,2018-12-27,16.8,27.72,True,0.566,False,False,False
+116,3,Emily,Morgan,Grocery / Nightfill,Grocery,part_time,2026-04-09,15.1,24.8,True,0.727,True,True,False
+117,6,Carol,Saunders,Checkout / Front End,Checkout,casual,2021-07-10,7.4,25.61,True,0.383,False,False,False
+118,1,Richard,Todd,Checkout / Front End,Checkout,part_time,2020-10-30,22.2,24.75,True,0.262,False,False,False
+119,4,Christopher,Anderson,Checkout / Front End,Checkout,part_time,2024-04-10,19.5,27.81,True,0.543,False,False,False
+120,6,Alexandra,Smith,Grocery / Nightfill,Grocery,full_time,2026-05-25,39.1,25.84,False,0.788,False,False,False
+121,6,Hayley,Harris,Checkout / Front End,Checkout,part_time,2024-08-16,17.9,26.86,True,0.991,False,False,False
+122,10,Fiona,McCarthy,Checkout / Front End,Checkout,part_time,2026-03-12,21.1,27.44,True,0.792,False,False,False
+123,12,Bryan,Casey,Online / Click & Collect,Online,part_time,2026-05-25,15.5,28.47,False,0.297,False,False,False
+124,9,Brett,Ryan,Online / Click & Collect,Online,full_time,2017-03-08,40.0,25.57,True,0.569,False,False,False
+125,1,Rebecca,Kelly,Online / Click & Collect,Online,casual,2021-10-28,0.0,27.8,False,0.676,False,False,False
+126,5,Gregory,Hart,Checkout / Front End,Checkout,casual,2021-06-25,22.1,27.61,True,0.659,False,False,False
+127,9,Kieran,Godfrey,Store Management,Management,full_time,2026-06-10,40.0,32.78,True,0.739,False,True,False
+128,8,Matthew,Cole,Fresh Foods,Fresh,part_time,2023-04-02,12.9,28.39,True,0.418,False,False,False
+129,6,Aimee,O'Connor,Checkout / Front End,Checkout,full_time,2019-08-11,40.0,25.74,False,0.634,False,False,False
+130,6,Samuel,Kelly,Checkout / Front End,Checkout,part_time,2022-10-19,24.0,26.77,False,0.712,False,False,False
+131,5,Jan,Peters,Online / Click & Collect,Online,part_time,2020-12-30,23.8,26.8,True,0.802,False,False,False
+132,7,Aaron,Carr,Checkout / Front End,Checkout,part_time,2023-04-29,18.2,25.41,True,0.443,False,False,False
+133,3,Cohen,Harris,Fresh Foods,Fresh,part_time,2023-10-16,16.7,25.61,True,0.544,False,False,False
+134,7,Nia,Howard,Other / Support,Support,casual,2026-05-25,10.3,25.14,False,0.025,False,False,False
+135,3,Mark,Coleman,Checkout / Front End,Checkout,full_time,2026-05-25,38.5,24.86,False,0.483,False,False,False
+136,9,Anthony,Dixon,Checkout / Front End,Checkout,casual,2023-07-14,23.2,26.73,False,0.505,False,False,False
+137,11,Julie,Higgins,Other / Support,Support,full_time,2026-06-16,38.0,26.43,False,0.396,False,True,False
+138,7,Connor,Anderson,Fresh Foods,Fresh,full_time,2026-05-25,35.2,25.97,True,0.656,False,False,False
+139,5,Scott,Barnes,Checkout / Front End,Checkout,part_time,2022-10-22,22.9,26.92,False,0.608,False,False,False
+140,12,Russell,Coley,Store Management,Management,part_time,2022-07-11,23.5,42.99,True,0.123,False,False,False
+141,8,Nigel,Sutton,Store Management,Management,casual,2026-05-25,17.2,40.63,True,0.667,False,False,False
+142,6,Hayden,Lammas,Fresh Foods,Fresh,casual,2025-08-16,18.0,29.21,False,0.416,False,False,False
+143,1,Gary,MacDonald,Fresh Foods,Fresh,part_time,2021-05-24,16.4,26.73,True,0.727,False,False,False
+144,1,Leah,Fowler,Checkout / Front End,Checkout,casual,2021-06-16,4.6,27.43,False,0.338,False,False,False
+145,3,Scott,Martin,Checkout / Front End,Checkout,part_time,2026-05-22,12.8,24.76,False,0.627,False,False,False
+146,3,Anthony,Lloyd,Fresh Foods,Fresh,part_time,2022-03-10,8.2,28.33,False,0.558,False,False,False
+147,9,Shane,Chapman,Checkout / Front End,Checkout,full_time,2019-06-05,38.1,27.96,True,0.687,False,False,False
+148,7,Kylie,Ward,Online / Click & Collect,Online,casual,2020-03-17,11.3,27.96,True,0.647,False,False,False
+149,12,Amanda,Laurenson,Department Supervisor,Supervisor,full_time,2023-01-01,36.4,31.48,False,0.564,False,False,False
+150,7,Michelle,Newman,Checkout / Front End,Checkout,full_time,2024-03-12,30.1,26.69,False,0.282,False,False,False
+151,11,Pippa,Jeffries,Fresh Foods,Fresh,part_time,2024-09-16,10.5,26.59,True,0.295,False,False,False
+152,7,Nia,Fisher,Checkout / Front End,Checkout,casual,2021-03-14,21.0,26.88,False,0.492,False,False,False
+153,5,Abby,Henderson,Store Management,Management,casual,2022-01-27,6.7,44.33,True,0.618,False,False,False
+154,9,Jackson,Mason,Checkout / Front End,Checkout,part_time,2020-09-06,20.2,27.99,False,0.486,False,False,False
+155,6,Christine,Olsen,Fresh Foods,Fresh,casual,2022-04-10,0.9,27.22,False,0.758,False,False,False
+156,4,Tracy,Gill,Fresh Foods,Fresh,casual,2020-01-29,23.5,25.28,True,0.559,False,False,False
+157,6,John,Murdoch,Grocery / Nightfill,Grocery,part_time,2022-05-24,17.1,26.29,True,0.408,False,False,False
+158,8,Jane,Jensen,Online / Click & Collect,Online,part_time,2020-03-08,19.7,25.42,False,0.559,False,False,False
+159,5,Sarah,Robson,Online / Click & Collect,Online,casual,2019-11-29,25.0,25.86,False,0.67,False,False,False
+160,9,Olivia,Jackson,Fresh Foods,Fresh,part_time,2025-04-09,27.1,26.48,False,0.691,False,False,False
+161,12,Josephine,Furness,Department Supervisor,Supervisor,part_time,2026-05-25,16.2,32.39,True,1.0,False,False,False
+162,5,Joshua,Way,Other / Support,Support,full_time,2017-10-04,36.0,25.51,False,0.473,False,False,False
+163,4,Louise,Anderson,Grocery / Nightfill,Grocery,part_time,2021-11-16,16.0,25.0,True,0.604,False,False,False
+164,5,Joy,Lewis,Fresh Foods,Fresh,full_time,2026-05-25,38.8,25.2,True,0.714,False,False,False
+165,11,Tania,Smith,Checkout / Front End,Checkout,casual,2024-12-24,11.2,27.56,True,0.615,False,False,False
+166,3,Damian,Terry,Department Supervisor,Supervisor,full_time,2020-03-23,36.5,32.16,False,0.51,False,False,False
+167,12,Deborah,Davey,Fresh Foods,Fresh,full_time,2023-08-04,40.0,25.18,False,0.279,False,False,False
+168,5,Troy,Cameron,Grocery / Nightfill,Grocery,casual,2024-05-02,11.1,24.58,False,0.508,False,False,False
+169,11,Glenn,Curtis,Checkout / Front End,Checkout,full_time,2018-03-19,40.0,26.46,False,0.384,False,False,False
+170,10,Gary,Wilkinson,Store Management,Management,full_time,2026-01-18,37.7,36.52,True,0.946,False,False,True
+171,10,Rochelle,Smith,Grocery / Nightfill,Grocery,part_time,2025-04-01,28.7,26.29,True,0.445,False,False,False
+172,11,Hannah,Owen,Online / Click & Collect,Online,casual,2022-01-07,14.9,26.52,True,0.39,False,False,False
+173,3,Grant,Reid,Checkout / Front End,Checkout,full_time,2026-05-19,39.9,27.73,True,0.748,False,True,False
+174,8,Paul,Stevens,Other / Support,Support,part_time,2021-02-08,13.7,26.08,True,0.752,False,False,False
+175,2,Dylan,Price,Checkout / Front End,Checkout,casual,2019-10-12,5.2,26.88,False,0.421,False,False,False
+176,4,Isabella,McLachlan,Checkout / Front End,Checkout,casual,2022-01-22,15.7,24.69,False,0.563,False,False,False
+177,1,James,Simonsen,Store Management,Management,part_time,2021-02-17,23.9,47.29,False,0.971,False,False,True
+178,9,Chloe,Read,Store Management,Management,full_time,2023-07-12,37.6,47.69,True,0.511,False,False,False
+179,8,Andrew,Green,Checkout / Front End,Checkout,full_time,2026-04-15,34.3,27.09,True,0.708,False,True,False
+180,9,Barbara,Fitzgerald,Grocery / Nightfill,Grocery,full_time,2022-05-09,34.1,25.9,True,0.801,False,False,False
+181,3,Nicola,Edwards,Online / Click & Collect,Online,full_time,2022-01-03,33.9,25.77,True,0.463,False,False,False
+182,4,Brian,Williams,Store Management,Management,part_time,2020-03-23,8.0,45.0,True,0.851,False,False,False
+183,9,Courtney,Thornton,Grocery / Nightfill,Grocery,full_time,2020-12-02,37.8,26.71,True,0.287,False,False,False
+184,10,Joshua,Howell,Fresh Foods,Fresh,part_time,2022-07-22,24.8,26.0,True,0.346,False,False,False
+185,11,Teresa,Weston,Online / Click & Collect,Online,part_time,2025-04-14,17.9,26.58,False,0.776,False,False,False
+186,1,Alexandra,Burgess,Online / Click & Collect,Online,part_time,2022-06-24,8.0,26.62,True,0.988,False,False,False
+187,5,Troy,Brown,Department Supervisor,Supervisor,full_time,2022-10-14,37.0,32.96,True,0.729,False,False,False
+188,1,Zoe,Bell,Fresh Foods,Fresh,casual,2022-01-29,10.7,28.08,True,0.611,False,False,False
+189,10,Anna,Martin,Checkout / Front End,Checkout,part_time,2015-08-21,30.0,26.75,True,0.137,False,False,False
+190,2,Daniel,Bird,Store Management,Management,part_time,2024-05-16,9.3,42.4,True,0.175,False,False,False
+191,10,Adam,McFarlane,Store Management,Management,full_time,2021-05-06,36.5,36.33,True,0.648,False,False,False
+192,2,Toni,Jackson,Department Supervisor,Supervisor,full_time,2019-04-12,40.0,30.23,False,0.902,False,False,True
+193,1,Dominic,Gardiner,Checkout / Front End,Checkout,casual,2022-05-20,15.6,24.66,True,0.377,False,False,False
+194,11,Chelsea,Corbett,Checkout / Front End,Checkout,part_time,2015-03-20,21.4,27.25,False,0.634,True,False,False
+195,6,Emily,Carr,Online / Click & Collect,Online,part_time,2023-11-27,18.7,26.52,True,0.645,False,False,False
+196,6,Debra,Bell,Checkout / Front End,Checkout,part_time,2021-08-29,20.0,26.03,True,0.828,False,False,False
+197,8,Denise,Grant,Other / Support,Support,part_time,2025-04-02,22.7,25.85,True,0.65,False,False,False
+198,4,Frances,Taylor,Grocery / Nightfill,Grocery,casual,2023-10-27,5.5,25.13,True,0.89,False,False,False
+199,9,Victoria,Tanner,Online / Click & Collect,Online,part_time,2021-11-25,23.3,27.06,True,0.622,False,False,False
+200,6,Troy,Smith,Store Management,Management,casual,2019-12-27,1.0,35.72,False,0.595,False,False,False
+201,4,Christina,Kay,Grocery / Nightfill,Grocery,full_time,2026-04-19,38.3,24.69,True,0.854,False,True,False
+202,5,Susan,Jensen,Checkout / Front End,Checkout,part_time,2018-09-01,19.1,27.19,False,0.405,False,False,False
+203,1,Awhina,Dunn,Fresh Foods,Fresh,part_time,2023-01-01,14.3,26.69,True,1.0,False,False,False
+204,4,Elizabeth,Gibson,Fresh Foods,Fresh,full_time,2023-10-05,37.4,26.71,True,0.703,False,False,False
+205,8,Tania,Jefferies,Grocery / Nightfill,Grocery,full_time,2014-01-16,35.9,25.79,True,0.704,True,False,False
+206,2,Barry,Rowe,Fresh Foods,Fresh,part_time,2021-06-08,11.6,28.67,True,0.736,False,False,False
+207,2,Simon,Newton,Other / Support,Support,casual,2024-12-30,9.2,26.26,True,1.0,False,False,False
+208,8,Robert,Jones,Grocery / Nightfill,Grocery,part_time,2024-12-01,11.4,26.77,False,0.794,False,False,False
+209,6,David,Herd,Checkout / Front End,Checkout,casual,2025-09-17,14.6,27.79,False,0.267,False,False,False
+210,2,Wayne,Bryant,Grocery / Nightfill,Grocery,casual,2019-09-13,2.8,26.48,False,0.912,False,False,True
+211,9,Elizabeth,Powell,Grocery / Nightfill,Grocery,part_time,2023-11-11,22.3,25.8,True,0.545,False,False,False
+212,10,Marcus,Bryant,Checkout / Front End,Checkout,casual,2022-04-16,2.5,27.12,False,0.644,False,False,False
+213,1,Gina,York,Checkout / Front End,Checkout,full_time,2022-11-25,36.1,26.1,True,0.339,False,False,False
+214,3,James,Shaw,Online / Click & Collect,Online,full_time,2026-06-04,35.9,26.45,False,0.736,False,True,False
+215,5,Megan,O'Sullivan,Grocery / Nightfill,Grocery,casual,2025-05-28,22.6,26.08,False,0.477,False,False,False
+216,9,David,Black,Other / Support,Support,casual,2026-02-20,14.6,26.25,False,0.642,False,False,False
+217,1,Xavier,Joe,Checkout / Front End,Checkout,full_time,2021-12-23,37.0,24.86,False,0.557,False,False,False
+218,10,Antony,Crawford,Checkout / Front End,Checkout,part_time,2020-10-09,21.0,25.95,False,1.0,False,False,False
+219,4,Michael,Hutchinson,Department Supervisor,Supervisor,part_time,2021-08-19,8.0,28.74,True,1.0,False,False,False
+220,2,Hamish,Whyte,Store Management,Management,casual,2025-04-15,11.7,38.57,False,0.63,False,False,False
+221,11,Flynn,Neal,Checkout / Front End,Checkout,part_time,2020-07-12,30.0,26.45,True,0.941,False,False,True
+222,2,Noah,Williams,Checkout / Front End,Checkout,part_time,2025-01-28,18.8,27.76,False,0.538,False,False,False
+223,2,Hayley,Paul,Checkout / Front End,Checkout,part_time,2024-05-13,18.4,24.63,False,0.863,False,False,False
+224,12,Stuart,Bishell,Fresh Foods,Fresh,part_time,2025-09-19,21.3,27.8,True,0.548,False,False,False
+225,7,Margaret,Bell,Grocery / Nightfill,Grocery,part_time,2018-07-14,23.4,25.87,True,0.527,False,False,False
+226,6,Patrick,Hadfield,Checkout / Front End,Checkout,casual,2020-09-01,0.0,24.57,True,0.835,False,False,False
+227,9,Fiona,Smith,Checkout / Front End,Checkout,part_time,2020-10-04,8.0,25.37,True,0.502,False,False,False
+228,8,Jason,Cameron,Grocery / Nightfill,Grocery,full_time,2018-09-15,38.0,24.86,True,0.612,False,False,False
+229,8,Matthew,Smith,Other / Support,Support,full_time,2013-09-11,35.7,25.69,False,0.272,True,False,False
+230,1,Aimee,Smith,Fresh Foods,Fresh,part_time,2026-05-25,25.9,26.24,True,0.775,False,False,False
+231,7,Adam,Morgan,Grocery / Nightfill,Grocery,casual,2025-01-22,9.5,25.7,False,1.0,False,False,False
+232,4,Daniel,Barnett,Checkout / Front End,Checkout,full_time,2024-09-01,32.7,26.35,True,0.779,False,False,False
+233,10,Caleb,Holloway,Checkout / Front End,Checkout,full_time,2025-06-02,34.3,24.5,True,0.942,False,False,False
+234,7,Judith,Turner,Checkout / Front End,Checkout,part_time,2026-02-22,8.0,25.07,True,0.434,False,False,False
+235,2,Frances,Mortimer,Department Supervisor,Supervisor,full_time,2023-08-28,36.9,28.56,False,0.672,False,False,False
+236,11,Jason,Stace,Store Management,Management,casual,2026-05-25,10.5,40.79,True,0.413,False,False,False
+237,4,Allan,Price,Store Management,Management,part_time,2021-08-16,15.5,37.27,True,0.57,False,False,False
+238,4,Jason,Robb,Other / Support,Support,full_time,2022-07-13,40.0,27.52,True,0.79,False,False,False
+239,12,Pamela,Anderson,Other / Support,Support,casual,2021-02-26,21.6,25.72,False,0.642,False,False,False
+240,10,James,Pritchard,Other / Support,Support,full_time,2021-01-26,37.1,24.63,True,0.309,False,False,False
+241,11,Nicola,Wells,Checkout / Front End,Checkout,part_time,2020-10-07,8.0,27.79,False,0.331,False,False,False
+242,8,Matthew,Fenton,Checkout / Front End,Checkout,full_time,2023-11-22,39.0,24.88,False,0.316,False,False,False
+243,11,Hayden,Lamb,Checkout / Front End,Checkout,full_time,2015-11-28,38.9,24.94,False,0.942,False,False,True
+244,2,Brenda,Gaskin,Fresh Foods,Fresh,full_time,2021-12-12,38.3,25.66,True,1.0,False,False,False
+245,8,Matthew,West,Checkout / Front End,Checkout,full_time,2026-05-25,40.0,27.93,True,0.92,False,False,False
+246,4,Ethan,Holdaway,Department Supervisor,Supervisor,full_time,2025-11-26,34.6,31.71,True,0.203,False,False,False
+247,5,Jack,Matthews,Fresh Foods,Fresh,full_time,2026-05-25,40.0,27.75,True,0.933,False,False,False
+248,3,Michelle,Shaw,Fresh Foods,Fresh,part_time,2022-08-22,12.2,29.44,False,0.826,False,False,False
+249,3,James,Procter,Checkout / Front End,Checkout,part_time,2023-02-01,22.5,24.81,True,0.28,False,False,False
+250,6,Danielle,Rush,Checkout / Front End,Checkout,part_time,2024-03-12,8.0,27.91,True,0.553,False,False,False
+251,12,Hayden,Patchett,Checkout / Front End,Checkout,part_time,2016-04-05,12.4,25.21,True,0.926,False,False,True
+252,8,Joseph,Anderson,Store Management,Management,part_time,2020-12-09,27.1,41.97,True,0.741,False,False,False
+253,5,Alan,Manning,Fresh Foods,Fresh,casual,2020-05-16,9.9,26.89,True,0.332,False,False,False
+254,6,Amelia,Forrest,Online / Click & Collect,Online,casual,2025-09-04,18.7,26.34,False,0.754,False,False,False
+255,7,Sophie,Gill,Checkout / Front End,Checkout,full_time,2025-11-22,38.1,27.76,True,0.15,False,False,False
+256,3,Carl,Kennedy,Grocery / Nightfill,Grocery,full_time,2022-07-31,37.2,24.95,False,0.571,False,False,False
+257,7,Kaia,Field,Grocery / Nightfill,Grocery,full_time,2022-02-21,40.0,27.49,False,0.87,False,False,False
+258,9,Rhys,Rowe,Department Supervisor,Supervisor,full_time,2026-05-25,36.9,30.27,True,0.624,False,False,False
+259,3,Catherine,Chapman,Department Supervisor,Supervisor,part_time,2023-04-10,8.0,31.89,True,0.51,False,False,False
+260,8,Holly,Harrison,Checkout / Front End,Checkout,part_time,2022-08-26,13.2,27.89,True,0.816,False,False,False
+261,9,Christina,Wood,Other / Support,Support,full_time,2023-05-21,38.9,24.82,True,0.872,False,False,True
+262,7,Sean,McDonald,Checkout / Front End,Checkout,part_time,2025-04-19,20.4,27.73,True,0.908,False,False,False
+263,4,Danielle,Hood,Store Management,Management,part_time,2024-06-03,8.6,41.08,False,0.812,False,False,False
+264,7,Rhys,Smith,Checkout / Front End,Checkout,full_time,2023-04-06,35.7,26.97,False,0.858,False,False,False
+265,10,Rachel,Mercer,Checkout / Front End,Checkout,casual,2022-05-28,7.3,25.02,True,0.781,False,False,False
+266,3,Alan,O'Brien,Department Supervisor,Supervisor,full_time,2020-10-05,36.6,31.2,True,0.678,False,False,False
+267,7,Amber,Woolley,Checkout / Front End,Checkout,casual,2019-03-28,1.0,26.86,True,0.64,False,False,False
+268,9,Xavier,Rush,Grocery / Nightfill,Grocery,full_time,2023-08-22,35.9,25.87,False,0.568,False,False,False
+269,4,Clinton,Murphy,Grocery / Nightfill,Grocery,casual,2024-02-27,6.2,24.96,True,0.353,False,False,False
+270,5,Melissa,Baldick,Checkout / Front End,Checkout,casual,2021-04-18,18.2,25.35,False,0.41,False,False,False
+271,11,Joshua,Martin,Online / Click & Collect,Online,casual,2026-06-18,18.5,27.99,False,0.558,False,True,False
+272,5,Jack,Ritchie,Store Management,Management,casual,2024-02-01,10.8,32.55,True,0.673,False,False,False
+273,8,Samuel,Field,Store Management,Management,casual,2020-03-02,8.9,43.34,True,0.937,False,False,False
+274,2,James,Simpson,Grocery / Nightfill,Grocery,part_time,2019-07-25,18.8,27.5,True,0.611,False,False,False
+275,12,Hunter,West,Fresh Foods,Fresh,casual,2018-07-25,5.5,25.03,False,0.841,False,False,False
+276,8,Kevin,Brooks,Checkout / Front End,Checkout,full_time,2017-01-02,34.6,25.06,True,0.857,False,False,False
+277,10,Vicki,Boyce,Checkout / Front End,Checkout,part_time,2025-06-20,12.4,26.86,False,0.569,False,False,False
+278,8,Leanne,Guthrie,Checkout / Front End,Checkout,part_time,2022-08-26,14.2,24.71,False,0.751,False,False,False
+279,5,Sharon,Potter,Other / Support,Support,casual,2022-08-29,2.7,27.74,False,0.566,False,False,False
+280,5,Emma,Stevens,Store Management,Management,part_time,2023-01-04,19.0,42.94,True,0.911,False,False,False
+281,9,Georgina,Barnes,Department Supervisor,Supervisor,part_time,2026-05-22,22.4,31.53,True,0.884,False,True,True
+282,11,Paige,Martin,Fresh Foods,Fresh,part_time,2026-05-25,8.5,26.64,False,0.358,False,False,False
+283,2,Ella,Rasmussen,Grocery / Nightfill,Grocery,full_time,2022-05-26,37.6,26.59,True,0.656,False,False,False
+284,11,Deborah,Southee,Fresh Foods,Fresh,full_time,2025-02-26,37.0,27.67,False,0.983,False,False,False
+285,10,Savannah,Bailey,Fresh Foods,Fresh,part_time,2022-06-03,20.0,25.93,True,0.58,False,False,False
+286,2,Jake,Joe,Grocery / Nightfill,Grocery,part_time,2025-03-28,17.9,26.19,True,0.718,False,False,False
+287,2,Alison,Powell,Checkout / Front End,Checkout,full_time,2026-03-20,33.9,27.59,False,0.74,False,False,False
+288,9,Judith,Perry,Checkout / Front End,Checkout,part_time,2021-12-12,10.4,26.83,True,0.392,False,False,False
+289,11,Heather,Wilkinson,Other / Support,Support,part_time,2026-06-18,18.2,27.09,True,0.732,False,True,False
+290,5,William,Russell,Grocery / Nightfill,Grocery,part_time,2020-11-03,24.2,25.46,True,0.313,False,False,False
+291,8,Ricky,Ward,Other / Support,Support,part_time,2015-09-14,8.0,24.97,True,0.482,False,False,False
+292,12,David,Wilton,Checkout / Front End,Checkout,part_time,2021-10-22,20.1,25.36,False,0.857,False,False,False
+293,4,Douglas,Gardiner,Fresh Foods,Fresh,part_time,2021-02-22,25.1,25.05,True,0.698,False,False,False
+294,3,David,Holland,Checkout / Front End,Checkout,casual,2026-02-22,10.8,27.95,True,0.553,False,False,False
+295,12,Jacob,Olsen,Checkout / Front End,Checkout,casual,2026-05-25,16.4,25.28,True,0.718,False,False,False
+296,4,Elizabeth,Thompson,Checkout / Front End,Checkout,part_time,2017-08-19,13.8,27.35,False,0.607,False,False,False
+297,6,Nigel,Lloyd,Checkout / Front End,Checkout,part_time,2025-08-26,17.3,25.09,True,0.623,False,False,False
+298,6,Elizabeth,Scott,Store Management,Management,part_time,2026-06-22,8.3,36.54,False,0.765,False,True,False
+299,7,Bryan,Taylor,Grocery / Nightfill,Grocery,casual,2022-10-27,0.0,25.75,False,0.46,False,False,False
+300,4,Mahi,Dunn,Fresh Foods,Fresh,part_time,2022-12-26,23.7,26.46,True,0.629,False,False,False
+301,9,William,McKay,Grocery / Nightfill,Grocery,casual,2025-08-01,4.1,26.9,False,0.551,False,False,False
+302,9,Anthony,Boyce,Grocery / Nightfill,Grocery,part_time,2023-09-03,15.3,27.37,False,0.271,False,False,False
+303,3,Adrian,Field,Fresh Foods,Fresh,part_time,2018-10-06,9.7,28.94,True,0.417,False,False,False
+304,6,Brent,Larsen,Checkout / Front End,Checkout,part_time,2025-04-11,9.5,25.04,True,0.965,False,False,False
+305,1,Crystal,Smith,Other / Support,Support,part_time,2026-05-25,17.0,28.77,False,0.705,False,False,False
+306,3,Benjamin,Higgins,Department Supervisor,Supervisor,full_time,2019-09-06,35.7,28.89,False,0.329,False,False,False
+307,12,Emily,Simpson,Online / Click & Collect,Online,part_time,2021-02-13,20.3,28.2,False,0.281,False,False,False
+308,7,Aaron,Collis,Grocery / Nightfill,Grocery,casual,2024-09-06,15.6,26.05,False,0.595,False,False,False
+309,8,Christopher,Hamilton,Checkout / Front End,Checkout,full_time,2026-06-02,38.3,25.68,True,0.963,False,True,False
+310,11,Louise,Morris,Other / Support,Support,part_time,2025-01-29,19.4,25.36,False,0.579,False,False,False
+311,9,Emma,Simmons,Grocery / Nightfill,Grocery,full_time,2022-11-14,40.0,24.54,False,0.908,False,False,False
+312,10,Janine,Larsen,Checkout / Front End,Checkout,part_time,2018-12-19,11.6,25.37,True,0.697,False,False,False
+313,9,Lynda,Davidson,Grocery / Nightfill,Grocery,full_time,2026-01-05,37.4,27.24,True,0.724,False,False,False
+314,6,Joshua,Leslie,Department Supervisor,Supervisor,casual,2022-12-19,21.1,32.78,True,0.326,False,False,False
+315,8,Peter,Field,Fresh Foods,Fresh,full_time,2020-07-14,40.0,29.36,False,0.826,False,False,False
+316,4,Amanda,Cameron,Department Supervisor,Supervisor,casual,2026-05-25,0.6,28.6,True,0.546,False,False,False
+317,11,Andrea,Simonsen,Department Supervisor,Supervisor,casual,2019-05-22,9.5,31.55,False,0.81,False,False,False
+318,3,Hayden,Patchett,Checkout / Front End,Checkout,part_time,2026-05-25,26.1,25.4,True,0.441,False,False,False
+319,11,James,Webb,Other / Support,Support,casual,2021-08-20,16.1,27.49,True,0.659,False,False,False
+320,11,Claire,Fairhall,Grocery / Nightfill,Grocery,casual,2021-11-27,13.6,25.46,False,0.697,False,False,False
+321,2,Nicholas,Smith,Fresh Foods,Fresh,casual,2019-03-24,10.3,26.28,True,0.586,False,False,False
+322,9,Karl,Greer,Checkout / Front End,Checkout,full_time,2020-12-07,36.5,26.51,False,0.709,False,False,False
+323,12,Hunter,Pearson,Other / Support,Support,part_time,2026-05-20,19.7,25.51,True,0.561,False,True,False
+324,7,David,Anderson,Checkout / Front End,Checkout,full_time,2026-06-20,36.9,26.14,False,0.477,False,True,False
+325,5,Christine,Vercoe,Checkout / Front End,Checkout,part_time,2022-04-03,17.7,26.78,True,0.973,False,False,False
+326,11,Janine,Hills,Grocery / Nightfill,Grocery,full_time,2023-04-27,37.7,24.88,False,0.851,False,False,False
+327,7,Brent,Cameron,Checkout / Front End,Checkout,part_time,2021-03-02,13.9,27.76,False,0.453,False,False,False
+328,2,Elizabeth,O'Sullivan,Checkout / Front End,Checkout,part_time,2020-03-03,21.2,26.27,True,0.745,False,False,False
+329,3,Ella,Hanson,Fresh Foods,Fresh,part_time,2020-09-30,30.0,28.69,True,0.457,False,False,False
+330,9,Daniel,Hood,Grocery / Nightfill,Grocery,part_time,2023-05-20,8.0,26.46,True,0.359,False,False,False
+331,6,Samuel,Ward,Other / Support,Support,casual,2026-05-25,14.6,28.41,False,0.847,False,False,False
+332,3,William,Claridge,Checkout / Front End,Checkout,casual,2024-02-26,5.9,27.01,False,0.245,False,False,False
+333,10,Lily,Nicholson,Online / Click & Collect,Online,part_time,2021-05-13,21.5,28.06,True,0.824,False,False,False
+334,2,Wayne,Tucker,Grocery / Nightfill,Grocery,part_time,2026-03-09,18.3,26.34,True,0.564,False,False,False
+335,3,Andrew,Davison,Fresh Foods,Fresh,casual,2020-09-04,18.1,26.25,False,0.573,False,False,False
+336,6,Joseph,Taylor,Fresh Foods,Fresh,full_time,2019-10-16,40.0,25.45,True,0.71,False,False,False
+337,1,Grace,Burrell,Grocery / Nightfill,Grocery,full_time,2022-04-16,38.0,26.32,False,0.748,False,False,False
+338,5,Max,Love,Other / Support,Support,full_time,2026-05-25,40.0,24.86,True,0.438,False,False,False
+339,11,Michael,Owen,Grocery / Nightfill,Grocery,part_time,2026-05-25,8.0,25.22,False,0.778,False,False,False
+340,12,Ella,Lucas,Checkout / Front End,Checkout,part_time,2016-08-29,27.5,24.71,False,0.645,False,False,False
+341,11,Janice,Parker,Online / Click & Collect,Online,casual,2024-06-11,15.0,26.92,True,0.344,False,False,False
+342,4,Alexis,Rowland,Department Supervisor,Supervisor,part_time,2026-05-25,24.5,28.96,True,0.583,False,False,False
+343,1,James,Healy,Checkout / Front End,Checkout,part_time,2026-06-15,10.7,26.64,True,0.924,False,True,False
+344,10,Daniel,Curtis,Grocery / Nightfill,Grocery,casual,2026-04-15,5.4,26.87,True,0.989,False,True,False
+345,5,Kelly,Bowden,Store Management,Management,casual,2019-02-28,13.2,45.15,True,0.778,False,False,False
+346,9,Callum,Murphy,Online / Click & Collect,Online,full_time,2021-10-23,37.5,26.08,False,0.358,False,False,False
+347,2,Rachel,Simpson,Other / Support,Support,part_time,2021-03-25,19.7,27.52,False,0.728,False,False,False
+348,9,Mitchell,Brown,Fresh Foods,Fresh,part_time,2021-07-14,24.5,27.53,True,0.807,False,False,False
+349,8,William,Drew,Fresh Foods,Fresh,full_time,2026-05-20,33.1,27.13,False,0.78,False,True,False
+350,12,Chloe,Martin,Checkout / Front End,Checkout,full_time,2015-05-30,39.9,26.79,True,0.793,True,False,False
+351,2,Wayne,Hyde,Other / Support,Support,casual,2019-08-04,12.1,25.66,False,0.7,False,False,False
+352,5,Robert,Bright,Grocery / Nightfill,Grocery,part_time,2026-05-25,16.8,27.44,True,0.604,False,False,False
+353,12,Katrina,Jeffries,Online / Click & Collect,Online,part_time,2021-04-07,9.2,25.34,False,0.486,False,False,False
+354,5,Isabelle,Fisher,Grocery / Nightfill,Grocery,part_time,2019-01-16,21.0,26.99,False,0.881,False,False,True
+355,8,William,O'Sullivan,Fresh Foods,Fresh,part_time,2018-11-06,8.0,27.67,False,0.695,False,False,False
+356,2,Rachel,Lane,Online / Click & Collect,Online,casual,2024-01-23,17.2,25.86,False,0.661,False,False,False
+357,9,Aidan,Davies,Fresh Foods,Fresh,casual,2018-12-20,0.1,28.36,True,0.743,False,False,False
+358,4,Hannah,McCallum,Store Management,Management,part_time,2019-09-23,18.3,33.35,False,0.326,False,False,False
+359,7,Kathleen,Webster,Grocery / Nightfill,Grocery,part_time,2014-06-19,17.3,26.82,True,0.762,True,False,False
+360,11,Julie,Simpson,Fresh Foods,Fresh,casual,2025-02-04,21.4,27.65,False,1.0,False,False,False
+361,8,Isla,Jamieson,Grocery / Nightfill,Grocery,part_time,2024-04-27,16.9,24.83,True,0.637,False,False,False
+362,6,Jason,Gullery,Grocery / Nightfill,Grocery,casual,2023-09-04,6.4,24.74,True,0.606,False,False,False
+363,3,Thomas,Fitzgerald,Grocery / Nightfill,Grocery,full_time,2026-04-29,36.2,26.75,True,0.688,False,True,False
+364,5,Stephanie,O'Brien,Checkout / Front End,Checkout,casual,2025-07-18,22.2,25.53,True,1.0,False,False,False
+365,11,Sandra,Phillips,Checkout / Front End,Checkout,part_time,2026-05-25,21.2,27.61,False,0.395,False,False,False
+366,3,Blake,Jackson,Online / Click & Collect,Online,full_time,2024-02-02,36.5,27.67,False,0.665,False,False,False
+367,8,Zachary,Day,Fresh Foods,Fresh,part_time,2021-07-07,16.6,28.14,False,0.444,False,False,False
+368,6,Sharon,Burton,Online / Click & Collect,Online,part_time,2024-04-10,8.6,25.98,True,0.5,False,False,False
+369,4,Laura,Pratt,Checkout / Front End,Checkout,full_time,2016-07-02,38.5,26.98,False,0.609,False,False,False
+370,9,Jesse,Pedersen,Grocery / Nightfill,Grocery,part_time,2022-08-27,8.0,27.34,True,0.916,False,False,False
+371,5,Deborah,Stace,Checkout / Front End,Checkout,casual,2018-07-26,18.0,24.82,True,1.0,False,False,False
+372,4,Joshua,Fowler,Department Supervisor,Supervisor,part_time,2021-11-10,18.8,29.96,False,0.719,False,False,False
+373,7,Warren,Jacques,Store Management,Management,part_time,2020-01-20,30.0,35.75,True,0.537,False,False,False
+374,10,Logan,McMillan,Checkout / Front End,Checkout,part_time,2021-10-20,11.4,25.88,True,1.0,False,False,False
+375,11,Peter,Dyer,Online / Click & Collect,Online,part_time,2018-04-26,17.4,27.6,True,0.526,False,False,False
+376,8,Logan,Stevens,Checkout / Front End,Checkout,casual,2022-07-08,25.0,26.16,True,0.494,False,False,False
+377,8,Stacey,Pope,Checkout / Front End,Checkout,casual,2021-02-09,21.5,26.5,False,0.23,False,False,False
+378,10,Wayne,Ferguson,Checkout / Front End,Checkout,full_time,2021-07-10,35.8,25.6,True,0.927,False,False,False
+379,4,Peter,Lowe,Checkout / Front End,Checkout,casual,2023-08-14,13.8,24.99,True,0.833,False,False,False
+380,4,Hannah,Whyte,Online / Click & Collect,Online,casual,2021-05-26,12.0,25.93,True,1.0,False,False,False
+381,6,Benjamin,Sullivan,Store Management,Management,part_time,2015-07-19,19.7,45.75,True,0.314,True,False,False
+382,8,James,Griffin,Checkout / Front End,Checkout,casual,2023-07-25,6.4,26.61,False,0.941,False,False,False
+383,8,Lachlan,Drake,Fresh Foods,Fresh,full_time,2021-05-09,37.3,26.7,False,0.635,False,False,False
+384,2,Matthew,Ireland,Online / Click & Collect,Online,casual,2018-09-02,0.0,27.76,False,0.797,False,False,False
+385,10,Kathryn,Poole,Other / Support,Support,part_time,2019-01-18,18.8,24.85,False,0.257,False,False,False
+386,5,Dean,Neal,Fresh Foods,Fresh,part_time,2022-08-29,20.7,26.14,True,0.943,False,False,False
+387,11,Paul,Wilkinson,Checkout / Front End,Checkout,full_time,2026-05-25,36.9,25.31,False,0.793,False,False,False
+388,9,Joseph,Wood,Fresh Foods,Fresh,casual,2021-01-16,0.0,29.43,True,0.611,False,False,False
+389,12,Raymond,Thompson,Grocery / Nightfill,Grocery,full_time,2026-05-25,40.0,26.62,True,0.762,False,False,False
+390,8,Elijah,Thomas,Other / Support,Support,full_time,2017-12-28,38.4,27.9,False,0.452,False,False,False
+391,7,Summer,Smith,Grocery / Nightfill,Grocery,full_time,2022-02-25,35.7,24.51,True,0.493,False,False,False
+392,3,Oscar,Gardiner,Online / Click & Collect,Online,casual,2019-07-01,9.8,25.65,False,0.518,False,False,False
+393,5,Sandra,Taylor,Checkout / Front End,Checkout,full_time,2025-08-01,33.7,26.72,False,0.212,False,False,False
+394,11,Daniel,Trask,Grocery / Nightfill,Grocery,casual,2026-05-25,3.8,25.64,False,0.902,False,False,True
+395,5,Pauline,Woolley,Store Management,Management,part_time,2021-11-11,14.8,46.79,True,0.882,False,False,False
+396,1,Peter,Ward,Fresh Foods,Fresh,full_time,2022-10-21,40.0,28.44,True,0.466,False,False,False
+397,3,Mark,Cox,Grocery / Nightfill,Grocery,full_time,2024-04-08,35.9,25.84,False,0.697,False,False,False
+398,8,Richard,Blick,Other / Support,Support,full_time,2022-06-05,39.1,28.62,True,0.562,False,False,False
+399,8,Rochelle,Webster,Store Management,Management,part_time,2013-11-03,14.8,47.61,True,0.692,True,False,False
+400,12,Jessica,Simmons,Grocery / Nightfill,Grocery,casual,2026-04-02,14.0,25.88,False,0.482,False,True,False
+401,12,Carolyn,Craven,Fresh Foods,Fresh,full_time,2019-05-04,37.1,27.89,False,0.426,False,False,False
+402,7,Charles,McPherson,Grocery / Nightfill,Grocery,casual,2019-12-30,19.0,27.26,False,0.851,False,False,False
+403,7,Natasha,Prouse,Fresh Foods,Fresh,full_time,2017-12-17,36.2,26.12,True,0.606,False,False,False
+404,10,Elijah,Smith,Grocery / Nightfill,Grocery,casual,2023-04-22,0.0,27.16,True,1.0,False,False,False
+405,1,Ivy,Ellery,Checkout / Front End,Checkout,casual,2026-04-12,0.9,24.84,False,0.63,False,True,False
+406,8,Wikitoria,Smith,Store Management,Management,casual,2023-04-20,7.7,42.38,True,0.416,False,False,False
+407,6,Matthew,McPherson,Other / Support,Support,part_time,2026-04-30,10.5,28.81,True,0.89,False,True,False
+408,10,Sally,Smith,Department Supervisor,Supervisor,casual,2025-10-19,15.3,31.69,True,0.759,False,False,False
+409,10,Isaac,Smith,Other / Support,Support,full_time,2023-04-06,36.3,27.23,True,0.78,False,False,False
+410,8,Nicholas,Matthews,Online / Click & Collect,Online,full_time,2024-11-28,40.0,27.16,True,0.882,False,False,False
+411,8,Nicola,Greig,Department Supervisor,Supervisor,full_time,2026-05-23,33.2,28.91,True,0.476,False,True,False
+412,9,Morgan,Smith,Department Supervisor,Supervisor,part_time,2020-04-19,19.2,29.29,False,0.592,False,False,False
+413,7,Paul,Gray,Grocery / Nightfill,Grocery,part_time,2020-08-11,11.2,25.31,True,0.582,False,False,False
+414,3,Kylie,Lowe,Grocery / Nightfill,Grocery,part_time,2020-09-15,15.0,26.29,False,0.336,False,False,False
+415,4,Matthew,Aitken,Checkout / Front End,Checkout,casual,2022-10-25,13.1,26.05,True,0.562,False,False,False
+416,9,Leslie,Russell,Fresh Foods,Fresh,full_time,2022-01-24,31.7,26.1,False,0.914,False,False,False
+417,8,Shane,North,Checkout / Front End,Checkout,part_time,2026-05-25,19.4,27.59,True,0.935,False,False,True
+418,3,Aaron,Bailey,Checkout / Front End,Checkout,full_time,2026-05-25,40.0,25.81,True,0.324,False,False,False
+419,11,Angus,Turner,Fresh Foods,Fresh,full_time,2022-03-20,36.4,27.01,True,0.278,False,False,False
+420,12,Oliver,Fletcher,Grocery / Nightfill,Grocery,part_time,2021-08-29,19.6,25.73,True,0.986,False,False,False
+421,8,William,Cole,Checkout / Front End,Checkout,casual,2018-10-29,20.2,25.14,True,0.6,False,False,False
+422,3,Mareikura,Phillips,Department Supervisor,Supervisor,part_time,2017-09-01,17.0,32.39,False,0.478,False,False,False
+423,12,Joanna,Watkins,Store Management,Management,full_time,2017-09-03,36.0,39.18,False,0.56,False,False,False
+424,3,Jason,Dixon,Checkout / Front End,Checkout,part_time,2025-11-21,8.0,24.56,True,0.295,False,False,False
+425,6,Tracey,Casey,Checkout / Front End,Checkout,full_time,2023-10-28,39.1,27.87,True,0.933,False,False,False
+426,11,Emily,Smith,Grocery / Nightfill,Grocery,casual,2021-02-27,11.1,26.95,False,0.534,False,False,False
+427,7,Katie,Bradley,Department Supervisor,Supervisor,part_time,2014-08-05,11.9,32.34,False,0.969,True,False,True
+428,3,Jeremy,Morris,Department Supervisor,Supervisor,full_time,2017-12-17,37.8,33.21,True,0.631,False,False,False
+429,1,Hunter,Searle,Checkout / Front End,Checkout,full_time,2019-02-11,36.0,27.67,False,0.886,False,False,True
+430,5,Lance,Field,Department Supervisor,Supervisor,full_time,2023-12-09,36.2,30.02,True,0.87,False,False,True
+431,9,Kahu,Shailer,Checkout / Front End,Checkout,casual,2025-07-10,16.9,26.64,False,0.808,False,False,False
+432,9,Abigail,Eaton,Grocery / Nightfill,Grocery,part_time,2020-03-03,10.0,26.33,True,0.778,False,False,False
+433,3,Nicholas,Davis,Other / Support,Support,casual,2026-03-21,20.4,25.97,True,0.757,False,False,False
+434,2,Lisa,Smith,Checkout / Front End,Checkout,part_time,2023-06-17,9.6,25.28,True,0.697,False,False,False
+435,9,Stephanie,Street,Checkout / Front End,Checkout,part_time,2023-01-24,14.0,24.9,False,0.569,False,False,False
+436,2,Grant,Guthrie,Grocery / Nightfill,Grocery,full_time,2017-08-07,40.0,26.48,True,1.0,False,False,False
+437,1,Jessica,Henry,Fresh Foods,Fresh,casual,2023-10-31,21.0,28.51,False,0.42,False,False,False
+438,6,Annette,Pedersen,Other / Support,Support,part_time,2026-05-25,18.6,28.69,False,0.621,False,False,False
+439,7,William,Harrison,Other / Support,Support,part_time,2021-01-30,12.4,26.24,False,0.623,False,False,False
+440,3,Elizabeth,Boyle,Checkout / Front End,Checkout,part_time,2024-12-07,14.8,25.22,True,0.709,False,False,False
+441,3,Jared,Knight,Checkout / Front End,Checkout,part_time,2022-07-24,18.4,26.09,True,0.526,False,False,False
+442,3,Naomi,Richards,Department Supervisor,Supervisor,casual,2022-12-22,12.3,31.28,True,0.689,False,False,False
+443,5,Caleb,Rowe,Checkout / Front End,Checkout,full_time,2023-07-28,37.3,27.72,False,0.583,False,False,False
+444,1,Jonathan,Norton,Store Management,Management,part_time,2020-03-02,17.8,46.0,False,0.272,False,False,False
+445,1,Karl,Collis,Online / Click & Collect,Online,part_time,2026-05-25,16.7,28.21,True,0.622,False,False,False
+446,5,Anna,Read,Checkout / Front End,Checkout,part_time,2026-05-09,9.3,27.48,False,0.378,False,True,False
+447,1,Richard,Anderson,Department Supervisor,Supervisor,full_time,2020-07-04,36.2,33.79,True,0.238,False,False,False
+448,4,Brent,Pike,Checkout / Front End,Checkout,full_time,2024-08-29,39.8,26.13,True,0.65,False,False,False
+449,7,Joshua,Freeman,Grocery / Nightfill,Grocery,full_time,2026-05-25,34.1,24.64,True,0.962,False,False,True
+450,1,Henry,McEwen,Fresh Foods,Fresh,part_time,2020-07-22,16.9,25.38,False,0.736,False,False,False
+451,8,Caroline,Patterson,Fresh Foods,Fresh,part_time,2019-02-07,13.1,26.76,True,0.745,False,False,False
+452,8,Toby,Farland,Online / Click & Collect,Online,part_time,2022-11-03,18.7,25.9,True,0.195,False,False,False
+453,7,Sharon,Jackson,Fresh Foods,Fresh,part_time,2026-05-25,15.7,25.76,False,0.321,False,False,False
+454,8,Arthur,Smith,Other / Support,Support,part_time,2020-06-08,26.9,29.74,True,1.0,False,False,False
+455,10,Tony,Donald,Other / Support,Support,part_time,2026-05-25,21.0,25.57,True,0.39,False,False,False
+456,1,Emma,Sinclair,Fresh Foods,Fresh,full_time,2021-09-16,34.2,29.32,True,0.754,False,False,False
+457,3,William,Gibson,Checkout / Front End,Checkout,part_time,2025-07-15,22.0,27.16,True,0.469,False,False,False
+458,4,Sean,O'Sullivan,Online / Click & Collect,Online,part_time,2026-05-25,13.4,27.24,True,0.638,False,False,False
+459,9,David,Cameron,Other / Support,Support,full_time,2024-02-10,36.1,28.22,True,0.481,False,False,False
+460,11,Christian,Thomas,Checkout / Front End,Checkout,part_time,2023-04-14,19.9,25.66,False,0.744,False,False,False
+461,12,Jack,Dean,Grocery / Nightfill,Grocery,part_time,2024-10-04,15.0,26.44,True,0.879,False,False,True
+462,7,Alexander,Greig,Grocery / Nightfill,Grocery,full_time,2020-10-23,39.7,25.06,False,0.521,False,False,False
+463,5,Nathan,Patterson,Checkout / Front End,Checkout,part_time,2024-02-15,13.4,27.78,True,0.389,False,False,False
+464,5,Anna,Simpson,Online / Click & Collect,Online,part_time,2019-07-24,14.3,26.06,True,0.679,False,False,False
+465,1,John,Smith,Grocery / Nightfill,Grocery,part_time,2021-10-18,14.1,25.27,True,0.353,False,False,False
+466,6,Barry,Clunies-Ross,Department Supervisor,Supervisor,part_time,2024-12-05,14.6,32.27,True,0.714,False,False,False
+467,7,Tina,Nielsen,Department Supervisor,Supervisor,part_time,2025-06-20,24.6,31.94,True,1.0,False,False,False
+468,3,Steven,Thompson,Department Supervisor,Supervisor,part_time,2026-05-25,21.8,30.71,True,0.917,False,False,False
+469,10,Joshua,Davis,Grocery / Nightfill,Grocery,casual,2021-10-07,25.0,26.4,False,0.778,False,False,False
+470,10,Anthony,Smith,Grocery / Nightfill,Grocery,part_time,2023-10-31,30.0,24.98,False,0.601,False,False,False
+471,4,Harrison,Stratton,Online / Click & Collect,Online,part_time,2026-05-25,11.8,27.36,True,0.193,False,False,False
+472,11,Kaia,Clifford,Department Supervisor,Supervisor,part_time,2024-05-30,18.4,29.62,True,0.329,False,False,False
+473,2,Maria,Gill,Grocery / Nightfill,Grocery,part_time,2025-07-31,10.9,25.32,True,0.902,False,False,False
+474,11,Victoria,Fitzgerald,Store Management,Management,part_time,2017-08-27,13.3,34.59,False,0.446,False,False,False
+475,10,Benjamin,Robert,Checkout / Front End,Checkout,part_time,2026-05-25,14.2,25.66,True,0.466,False,False,False
+476,3,Isabella,Price,Store Management,Management,casual,2026-05-25,3.5,37.3,True,0.584,False,False,False
+477,8,Deborah,Watts,Checkout / Front End,Checkout,casual,2019-02-22,3.6,26.09,True,0.386,False,False,False
+478,4,Teresa,Mitchell,Checkout / Front End,Checkout,part_time,2018-05-10,17.1,25.17,True,0.35,False,False,False
+479,10,Geoffrey,McLeod,Fresh Foods,Fresh,part_time,2026-05-24,10.7,25.87,True,0.931,False,True,True
+480,2,Michael,Prentice,Checkout / Front End,Checkout,casual,2024-09-19,18.7,26.4,False,0.424,False,False,False
+481,3,Christopher,Ford,Checkout / Front End,Checkout,part_time,2020-09-21,12.5,24.95,False,0.457,False,False,False
+482,4,Wendy,Taylor,Checkout / Front End,Checkout,casual,2026-05-25,25.0,26.91,True,0.448,False,False,False
+483,3,Bernard,Graham,Grocery / Nightfill,Grocery,part_time,2026-05-25,15.3,27.33,True,0.735,False,False,False
+484,4,Isaac,Tucker,Department Supervisor,Supervisor,full_time,2023-08-06,37.7,30.56,True,0.569,False,False,False
+485,8,Hayley,Hardy,Checkout / Front End,Checkout,full_time,2017-09-26,34.3,27.65,True,0.581,False,False,False
+486,8,Michael,Boyce,Fresh Foods,Fresh,casual,2024-02-03,25.0,25.44,True,0.751,False,False,False
+487,7,Oliver,Day,Department Supervisor,Supervisor,full_time,2022-05-17,40.0,28.26,True,0.589,False,False,False
+488,3,Shaun,Reid,Checkout / Front End,Checkout,part_time,2019-01-25,19.8,27.02,False,0.559,False,False,False
+489,3,Stephanie,Doyle,Checkout / Front End,Checkout,part_time,2015-12-15,9.9,27.16,False,0.723,False,False,False
+490,12,Sean,Carr,Store Management,Management,full_time,2024-07-17,38.0,45.49,False,0.767,False,False,False
+491,4,Bernard,Prentice,Department Supervisor,Supervisor,part_time,2022-10-01,11.3,28.34,False,0.588,False,False,False
+492,2,Grant,Martin,Fresh Foods,Fresh,part_time,2016-11-12,26.8,28.5,True,0.901,False,False,True
+493,6,Blair,Waugh,Department Supervisor,Supervisor,full_time,2026-05-25,39.5,30.26,True,0.448,False,False,False
+494,1,Trent,Norman,Checkout / Front End,Checkout,casual,2019-05-30,12.8,25.56,True,0.431,False,False,False
+495,5,Andrew,Phillips,Grocery / Nightfill,Grocery,casual,2025-12-15,0.0,25.02,False,0.789,False,False,False
+496,11,Holly,Jenkins,Online / Click & Collect,Online,part_time,2022-05-15,12.1,28.49,True,0.718,False,False,False
+497,4,Stephen,Eden,Checkout / Front End,Checkout,full_time,2023-06-22,39.2,24.72,False,0.72,False,False,False
+498,9,Brett,Ryan,Department Supervisor,Supervisor,part_time,2025-10-05,25.3,32.96,True,0.682,False,False,False
+499,6,Joseph,Burton,Fresh Foods,Fresh,full_time,2025-11-04,40.0,27.88,True,0.942,False,False,True
+500,5,Angela,MacDonald,Department Supervisor,Supervisor,part_time,2021-10-23,8.4,32.41,True,0.773,False,False,False
+501,8,Jessica,McDonald,Grocery / Nightfill,Grocery,casual,2019-07-06,14.4,26.64,False,0.826,False,False,False
+502,8,Mark,Cunningham,Grocery / Nightfill,Grocery,casual,2026-05-24,20.1,27.08,True,0.82,False,True,False
+503,4,Karen,Flood,Checkout / Front End,Checkout,casual,2022-06-22,0.0,25.14,True,0.598,False,False,False
+504,3,Mary,Warren,Checkout / Front End,Checkout,part_time,2020-11-13,18.0,24.5,True,0.893,False,False,True
+505,12,Richard,Love,Department Supervisor,Supervisor,part_time,2025-10-21,19.6,31.59,False,0.917,False,False,True
+506,3,Julia,Bailey,Checkout / Front End,Checkout,part_time,2020-04-30,16.2,25.74,False,0.759,False,False,False
+507,12,Oliver,Jefferies,Checkout / Front End,Checkout,part_time,2020-01-28,8.0,24.93,True,0.682,False,False,False
+508,6,Christopher,McIsaac,Checkout / Front End,Checkout,part_time,2014-05-13,16.0,25.15,False,0.674,True,False,False
+509,12,Robert,Turner,Checkout / Front End,Checkout,full_time,2023-11-25,36.7,25.66,True,0.458,False,False,False
+510,5,Michael,Bradley,Department Supervisor,Supervisor,full_time,2024-02-29,37.1,28.42,False,0.774,False,False,False
+511,7,Paul,Holmes,Grocery / Nightfill,Grocery,part_time,2020-03-27,14.6,24.67,True,1.0,False,False,False
+512,8,Hannah,Neilson,Other / Support,Support,full_time,2020-01-28,36.4,29.54,True,0.538,False,False,False
+513,5,Kathleen,Hodson,Checkout / Front End,Checkout,full_time,2024-05-29,37.4,25.59,False,0.636,False,False,False
+514,3,Logan,Martin,Fresh Foods,Fresh,casual,2023-12-27,15.5,29.42,True,0.522,False,False,False
+515,7,Tama,Smith,Grocery / Nightfill,Grocery,casual,2020-12-18,9.6,27.39,True,0.513,False,False,False
+516,8,Mikaere,Knight,Grocery / Nightfill,Grocery,part_time,2025-05-06,15.5,24.93,False,0.96,False,False,False
+517,4,Joshua,Robert,Store Management,Management,casual,2024-01-04,12.7,43.44,False,0.472,False,False,False
+518,10,Brooklyn,McLeod,Other / Support,Support,casual,2022-05-30,0.0,27.8,True,0.516,False,False,False
+519,8,Brian,Aitken,Store Management,Management,full_time,2019-07-05,38.7,43.05,False,0.271,False,False,False
+520,2,Gary,Thomas,Checkout / Front End,Checkout,part_time,2024-08-18,18.0,24.84,False,0.453,False,False,False
+521,12,John,Bright,Checkout / Front End,Checkout,part_time,2026-05-25,18.2,25.16,True,0.244,False,False,False
+522,1,Lauren,Caldwell,Fresh Foods,Fresh,full_time,2026-05-25,39.9,25.34,False,0.759,False,False,False
+523,8,Denise,Davis,Checkout / Front End,Checkout,casual,2026-05-25,0.0,26.61,True,1.0,False,False,False
+524,6,Leo,Taylor,Online / Click & Collect,Online,part_time,2026-05-25,8.0,28.45,False,0.539,False,False,False
+525,8,Simon,Hardy,Fresh Foods,Fresh,part_time,2023-03-11,19.6,28.02,True,0.253,False,False,False
+526,10,Susan,Eden,Fresh Foods,Fresh,full_time,2026-05-25,37.5,28.2,True,0.818,False,False,False
+527,9,Evie,Jeffries,Department Supervisor,Supervisor,full_time,2024-12-11,37.9,33.91,True,0.46,False,False,False
+528,8,Ruby,Roberts,Online / Click & Collect,Online,casual,2025-03-04,8.3,27.37,True,0.906,False,False,False
+529,11,William,Miller,Checkout / Front End,Checkout,full_time,2024-02-08,39.2,24.64,False,0.558,False,False,False
+530,9,Amber,Baker,Checkout / Front End,Checkout,full_time,2018-06-19,39.8,27.53,False,0.481,False,False,False
+531,10,Adam,Low,Fresh Foods,Fresh,part_time,2020-07-30,20.9,26.64,True,0.581,False,False,False
+532,5,Kyle,Nicol,Grocery / Nightfill,Grocery,part_time,2022-08-24,16.4,24.51,True,0.787,False,False,False
+533,3,Luke,Thomas,Checkout / Front End,Checkout,part_time,2024-03-03,8.0,26.28,True,0.57,False,False,False
+534,3,Olivia,Clifford,Grocery / Nightfill,Grocery,part_time,2024-01-31,22.6,27.31,True,0.511,False,False,False
+535,8,Blair,Phillips,Department Supervisor,Supervisor,full_time,2021-08-24,40.0,29.54,True,0.576,False,False,False
+536,7,Joshua,Jeffries,Department Supervisor,Supervisor,full_time,2020-10-29,39.1,30.95,False,0.34,False,False,False
+537,1,Simon,Love,Fresh Foods,Fresh,casual,2025-08-07,5.0,25.78,False,0.707,False,False,False
+538,3,Michael,Atkinson,Grocery / Nightfill,Grocery,part_time,2022-07-31,22.0,24.67,True,0.227,False,False,False
+539,12,Hayden,Smart,Checkout / Front End,Checkout,part_time,2026-05-25,23.2,24.78,True,0.889,False,False,True
+540,9,Amy,Reid,Fresh Foods,Fresh,part_time,2022-01-07,27.4,28.27,False,0.787,False,False,False
+541,10,Hannah,McIntyre,Checkout / Front End,Checkout,casual,2020-04-04,5.0,27.52,True,0.687,False,False,False
+542,3,Shelley,Hooper,Fresh Foods,Fresh,full_time,2023-08-05,36.9,25.64,True,0.87,False,False,True
+543,1,Elizabeth,Kennedy,Online / Click & Collect,Online,part_time,2016-11-18,22.5,26.01,True,0.606,False,False,False
+544,4,Katherine,Howard,Checkout / Front End,Checkout,part_time,2025-07-08,18.3,25.18,True,0.877,False,False,False
+545,11,Julie,McLean,Checkout / Front End,Checkout,part_time,2021-12-31,11.3,24.59,True,0.823,False,False,False
+546,7,Yvonne,Barnett,Checkout / Front End,Checkout,casual,2022-10-23,15.3,26.44,False,0.718,False,False,False
+547,10,Melissa,Patchett,Store Management,Management,part_time,2023-01-07,21.5,43.2,True,0.824,False,False,False
+548,6,Anthony,Pearce,Fresh Foods,Fresh,casual,2026-05-12,12.7,27.92,False,0.785,False,True,False
+549,6,Craig,Perry,Checkout / Front End,Checkout,casual,2022-05-09,13.8,25.86,True,0.523,False,False,False
+550,8,Jane,Martin,Store Management,Management,part_time,2019-12-25,16.4,40.88,False,0.324,False,False,False
+551,12,Renee,Fisher,Grocery / Nightfill,Grocery,casual,2018-04-15,23.8,24.78,True,0.712,False,False,False
+552,6,Bradley,Jones,Grocery / Nightfill,Grocery,part_time,2022-09-14,12.6,24.96,True,0.74,False,False,False
+553,8,Michael,Burgess,Other / Support,Support,casual,2020-02-02,7.3,29.62,True,0.86,False,False,False
+554,12,Nicola,Jeffries,Checkout / Front End,Checkout,part_time,2024-12-10,18.1,27.17,True,0.414,False,False,False
+555,5,Brooke,Knight,Checkout / Front End,Checkout,part_time,2020-03-30,23.3,27.73,True,0.421,False,False,False
+556,11,Matthew,Carr,Fresh Foods,Fresh,part_time,2025-02-18,9.0,29.13,False,0.721,False,False,False
+557,7,Brett,Cole,Checkout / Front End,Checkout,full_time,2019-03-17,34.2,26.77,True,0.604,False,False,False
+558,11,Peter,Fisher,Online / Click & Collect,Online,part_time,2015-08-16,8.0,28.25,True,0.205,False,False,False
+559,6,Nathan,Carter,Checkout / Front End,Checkout,casual,2023-02-01,12.3,25.96,True,0.703,False,False,False
+560,8,Richard,Gibbons,Checkout / Front End,Checkout,part_time,2026-05-25,11.3,24.51,False,0.212,False,False,False
+561,4,Richard,Wilton,Checkout / Front End,Checkout,full_time,2024-06-13,36.5,24.72,False,0.875,False,False,True
+562,8,Te Ariki,Miles,Grocery / Nightfill,Grocery,part_time,2026-04-24,22.0,24.83,False,0.917,False,True,False
+563,4,Jeremy,Thompson,Checkout / Front End,Checkout,full_time,2020-12-04,35.9,24.83,True,1.0,False,False,False
+564,8,Kirsty,MacDonald,Checkout / Front End,Checkout,full_time,2021-11-25,38.1,25.73,False,0.353,False,False,False
+565,10,Janet,Smith,Store Management,Management,casual,2019-06-21,9.6,43.22,False,0.548,False,False,False
+566,6,Peter,Foot,Grocery / Nightfill,Grocery,part_time,2021-02-22,22.0,26.87,True,0.629,False,False,False
+567,6,Shane,Higgins,Grocery / Nightfill,Grocery,part_time,2018-10-19,20.9,26.27,True,1.0,False,False,False
+568,4,Benjamin,Ward,Checkout / Front End,Checkout,part_time,2019-10-03,13.8,25.01,False,0.512,False,False,False
+569,9,Shane,Mason,Grocery / Nightfill,Grocery,full_time,2017-10-29,37.1,26.74,True,0.515,False,False,False
+570,8,Charlotte,Dillon,Checkout / Front End,Checkout,full_time,2021-07-19,40.0,25.74,False,0.961,False,False,False
+571,7,James,Boyce,Fresh Foods,Fresh,part_time,2019-10-19,20.4,25.06,True,0.538,False,False,False
+572,1,Simon,Turner,Checkout / Front End,Checkout,part_time,2023-09-06,9.6,25.48,True,0.779,False,False,False
+573,2,Caleb,Laurenson,Store Management,Management,casual,2024-08-15,17.2,37.29,True,0.295,False,False,False
+574,1,Andrew,Roberts,Other / Support,Support,part_time,2026-06-12,11.5,26.01,False,0.582,False,True,False
+575,11,Dylan,Stewart,Checkout / Front End,Checkout,part_time,2022-01-02,26.5,27.34,False,0.255,False,False,False
+576,11,Maria,Wallace,Checkout / Front End,Checkout,casual,2020-02-14,20.2,27.16,True,0.388,False,False,False
+577,1,Anna,Wallis,Checkout / Front End,Checkout,casual,2022-04-20,14.3,26.93,True,0.805,False,False,False
+578,1,Paul,Lee,Fresh Foods,Fresh,part_time,2024-07-28,18.9,25.63,True,0.609,False,False,False
+579,10,Victoria,Davies,Checkout / Front End,Checkout,casual,2022-08-30,10.3,27.33,True,0.863,False,False,True
+580,7,Ashleigh,McGregor,Store Management,Management,casual,2018-02-06,17.4,42.83,False,0.455,False,False,False
+581,4,Wendy,O'Sullivan,Department Supervisor,Supervisor,casual,2020-12-02,9.0,29.17,True,0.571,False,False,False
+582,8,Maraea,Love,Department Supervisor,Supervisor,full_time,2026-05-25,38.1,31.89,True,0.686,False,False,False
+583,3,Robert,Clifford,Fresh Foods,Fresh,part_time,2023-05-21,23.2,27.18,True,0.836,False,False,False
+584,3,Summer,Green,Other / Support,Support,part_time,2016-12-28,14.6,26.92,False,0.042,False,False,False
+585,5,Alex,Smith,Checkout / Front End,Checkout,part_time,2023-05-19,14.3,24.89,True,0.437,False,False,False
+586,11,Stephen,Kennedy,Grocery / Nightfill,Grocery,part_time,2026-05-25,10.8,26.05,False,0.655,False,False,False
+587,10,Sophie,Roberts,Grocery / Nightfill,Grocery,casual,2016-08-21,3.5,24.8,True,0.598,False,False,False
+588,3,John,Perry,Other / Support,Support,casual,2026-06-12,0.0,25.4,True,0.709,False,True,False
+589,7,Jan,Walton,Fresh Foods,Fresh,part_time,2022-12-02,22.4,25.6,False,0.679,False,False,False
+590,11,Peter,McIntyre,Department Supervisor,Supervisor,part_time,2023-11-20,28.9,33.72,True,0.553,False,False,False
+591,12,Jason,Jackson,Checkout / Front End,Checkout,part_time,2019-03-26,26.6,25.5,False,0.504,False,False,False
+592,10,Ann,Hughes,Other / Support,Support,part_time,2024-06-06,8.2,26.45,True,0.566,False,False,False
+593,2,Paige,Small,Grocery / Nightfill,Grocery,full_time,2019-01-08,39.3,25.47,False,0.873,False,False,False
+594,3,Lucy,Moran,Grocery / Nightfill,Grocery,full_time,2020-12-17,40.0,27.19,False,0.459,False,False,False
+595,3,Noah,Nicholson,Other / Support,Support,casual,2021-11-30,8.3,27.6,False,0.606,False,False,False
+596,2,Max,Gilchrist,Grocery / Nightfill,Grocery,part_time,2026-04-13,18.6,27.26,True,0.66,False,True,False
+597,3,Mahi,Beattie,Grocery / Nightfill,Grocery,casual,2023-04-04,0.0,25.4,False,0.963,False,False,False
+598,4,Daniel,Little,Fresh Foods,Fresh,part_time,2019-05-08,19.6,25.52,False,0.554,False,False,False
+599,7,James,Patterson,Checkout / Front End,Checkout,casual,2025-06-19,3.5,26.45,True,0.831,False,False,False
+600,5,Alyssa,Conway,Grocery / Nightfill,Grocery,part_time,2026-05-25,19.2,25.54,True,0.891,False,False,False
+601,6,Michael,Pritchard,Checkout / Front End,Checkout,casual,2020-09-23,0.0,27.31,False,0.606,False,False,False
+602,3,Philip,Doherty,Checkout / Front End,Checkout,full_time,2020-09-04,38.9,27.58,True,0.574,False,False,False
+603,2,Charlotte,Boyce,Store Management,Management,part_time,2021-02-27,24.1,39.56,False,0.548,False,False,False
+604,12,Martin,Forrest,Fresh Foods,Fresh,casual,2021-05-23,5.7,29.37,False,0.564,False,False,False
+605,8,Adrian,Francis,Grocery / Nightfill,Grocery,casual,2023-09-21,2.9,26.16,True,0.939,False,False,True
+606,3,Kauri,Anderson,Grocery / Nightfill,Grocery,casual,2020-03-05,0.0,25.31,True,0.671,False,False,False
+607,10,Paul,Bishop,Grocery / Nightfill,Grocery,full_time,2022-11-04,36.8,25.97,True,0.672,False,False,False
+608,10,Shane,Holland,Fresh Foods,Fresh,part_time,2024-04-03,14.5,25.17,True,0.987,False,False,True
+609,12,Sarah,Douglas,Other / Support,Support,full_time,2023-09-11,33.6,28.92,False,0.407,False,False,False
+610,2,Scarlett,Judd,Other / Support,Support,full_time,2016-03-25,38.6,25.06,True,1.0,False,False,False
+611,8,David,McDonald,Grocery / Nightfill,Grocery,part_time,2026-05-25,15.3,25.43,True,0.581,False,False,False
+612,12,Mason,Matthews,Grocery / Nightfill,Grocery,part_time,2021-02-04,11.5,26.2,False,0.45,False,False,False
+613,10,Sharon,Carr,Grocery / Nightfill,Grocery,casual,2026-05-25,7.6,24.63,True,0.935,False,False,False
+614,3,William,Gardiner,Fresh Foods,Fresh,casual,2023-01-16,20.6,25.36,False,0.682,False,False,False
+615,11,Edward,Mann,Grocery / Nightfill,Grocery,part_time,2024-01-31,21.6,26.59,True,0.747,False,False,False
+616,6,Ethan,Ryan,Fresh Foods,Fresh,casual,2026-05-25,11.0,25.32,True,0.59,False,False,False
+617,6,Richard,Pearson,Fresh Foods,Fresh,full_time,2021-06-14,39.0,27.15,True,0.55,False,False,False
+618,7,Sarah,Turnbull,Grocery / Nightfill,Grocery,full_time,2023-11-30,34.6,25.52,False,0.583,False,False,False
+619,10,Grace,Paul,Grocery / Nightfill,Grocery,part_time,2026-05-25,18.2,25.18,False,0.316,False,False,False
+620,2,Steven,Moore,Grocery / Nightfill,Grocery,casual,2020-01-04,13.2,25.07,False,0.601,False,False,False
+621,7,Rebecca,Anderson,Checkout / Front End,Checkout,full_time,2018-02-07,36.3,27.17,False,0.685,False,False,False
+622,10,Lydia,Rowlands,Checkout / Front End,Checkout,part_time,2017-12-05,20.6,27.83,False,0.857,False,False,True
+623,7,Jenna,Taylor,Online / Click & Collect,Online,part_time,2021-07-19,13.3,25.49,False,0.639,False,False,False
+624,4,Jacob,Fitzgerald,Grocery / Nightfill,Grocery,full_time,2022-07-20,38.8,27.38,True,0.106,False,False,False
+625,1,Joel,MacDonald,Checkout / Front End,Checkout,part_time,2018-06-12,21.3,26.58,False,0.599,False,False,False
+626,7,Kaia,O'Connor,Fresh Foods,Fresh,casual,2017-04-24,0.0,27.89,False,1.0,False,False,False
+627,9,James,Jamieson,Department Supervisor,Supervisor,part_time,2019-01-26,25.1,32.26,False,0.811,False,False,False
+628,7,Timothy,Ferguson,Checkout / Front End,Checkout,full_time,2025-09-16,30.0,26.96,True,0.442,False,False,False
+629,12,Alex,Hills,Department Supervisor,Supervisor,casual,2022-01-19,7.1,32.92,True,0.75,False,False,False
+630,8,Catherine,Bell,Other / Support,Support,part_time,2021-04-16,24.2,27.16,False,0.457,False,False,False
+631,7,Isaac,McDonald,Fresh Foods,Fresh,casual,2026-04-17,9.5,27.4,True,0.322,False,True,False
+632,1,Joshua,Hoskins,Online / Click & Collect,Online,part_time,2021-03-12,9.2,26.13,True,0.543,False,False,False
+633,7,Alison,Olsen,Checkout / Front End,Checkout,part_time,2015-06-04,11.4,24.87,False,0.64,True,False,False
+634,3,Jade,Laurenson,Other / Support,Support,part_time,2020-08-25,24.2,28.16,True,0.208,False,False,False
+635,9,Richard,Hart,Grocery / Nightfill,Grocery,full_time,2017-12-24,32.7,24.6,True,0.367,False,False,False
+636,2,Aimee,Greig,Other / Support,Support,casual,2022-02-10,21.0,26.02,True,0.622,False,False,False
+637,11,Sam,Williams,Fresh Foods,Fresh,full_time,2022-12-06,37.4,25.42,True,0.53,False,False,False
+638,4,Shane,Best,Checkout / Front End,Checkout,full_time,2021-06-23,34.5,25.17,False,0.707,False,False,False
+639,6,Shane,Fowler,Checkout / Front End,Checkout,part_time,2025-04-22,14.5,26.74,False,0.353,False,False,False
+640,2,Simon,Hodson,Online / Click & Collect,Online,part_time,2025-10-12,11.9,27.2,False,0.777,False,False,False
+641,3,Julie,Morrison,Fresh Foods,Fresh,casual,2026-04-20,18.9,26.89,False,0.36,False,True,False
+642,12,Murray,Russell,Checkout / Front End,Checkout,casual,2018-04-22,17.9,24.82,False,0.981,False,False,False
+643,4,Shaun,Jones,Online / Click & Collect,Online,part_time,2026-06-20,8.0,26.52,True,0.243,False,True,False
+644,7,Christopher,Coley,Store Management,Management,part_time,2019-08-07,15.6,37.64,False,0.38,False,False,False
+645,12,Troy,Kennedy,Grocery / Nightfill,Grocery,full_time,2022-12-22,35.3,26.66,True,0.712,False,False,False
+646,8,Sophia,Anderson,Grocery / Nightfill,Grocery,part_time,2021-08-10,25.8,26.24,True,0.986,False,False,False
+647,1,Sandra,Smith,Checkout / Front End,Checkout,casual,2021-03-23,1.2,26.22,False,0.689,False,False,False
+648,5,Miriama,Turner,Department Supervisor,Supervisor,part_time,2019-07-07,27.6,30.92,False,0.952,False,False,True
+649,5,Aidan,Drake,Grocery / Nightfill,Grocery,part_time,2022-06-07,17.8,27.4,True,0.624,False,False,False
+650,4,John,Stevens,Store Management,Management,part_time,2018-03-08,11.0,44.1,False,0.394,False,False,False

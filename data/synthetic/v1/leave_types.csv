@@ -1,0 +1,7 @@
+leave_code,leave_name,is_paid,carries_over,accrual_rate_hours_per_week,accrual_rate_days_per_year,max_balance_weeks,max_balance_days
+ANNUAL,Annual Leave,True,True,3.0769,,8.0,
+SICK,Sick Leave,True,True,,10.0,,20.0
+BEREAVEMENT,Bereavement Leave,True,False,,3.0,,
+PUBLIC_HOLIDAY,Public Holiday,True,False,,,,
+ALTERNATIVE,Alternative Holiday,True,True,,,,
+PARENTAL,Parental Leave,False,False,,,,

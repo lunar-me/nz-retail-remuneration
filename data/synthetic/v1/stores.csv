@@ -1,0 +1,13 @@
+store_id,store_name,region,format,size_band,trading_pattern,weekday_open,weekday_close,saturday_open,saturday_close,sunday_open,sunday_close,is_tight_capacity
+1,Store 01,Tauranga,Specialty,Medium,standard,07:00,21:00,07:00,21:00,08:00,20:00,True
+2,Store 02,Auckland,Large Format,Extra Large,extended,06:30,22:00,06:30,22:00,07:00,21:00,False
+3,Store 03,Hamilton,Specialty,Medium,standard,07:00,21:00,07:00,21:00,08:00,20:00,False
+4,Store 04,Auckland,Supermarket,Large,standard,07:00,21:00,07:00,21:00,08:00,20:00,False
+5,Store 05,Auckland,Large Format,Extra Large,extended,06:30,22:00,06:30,22:00,07:00,21:00,False
+6,Store 06,Christchurch,Large Format,Extra Large,extended,06:30,22:00,06:30,22:00,07:00,21:00,False
+7,Store 07,Wellington,Supermarket,Large,standard,07:00,21:00,07:00,21:00,08:00,20:00,False
+8,Store 08,Wellington,Supermarket,Large,standard,07:00,21:00,07:00,21:00,08:00,20:00,False
+9,Store 09,Hamilton,Specialty,Medium,standard,07:00,21:00,07:00,21:00,08:00,20:00,False
+10,Store 10,Hamilton,Supermarket,Large,standard,07:00,21:00,07:00,21:00,08:00,20:00,True
+11,Store 11,Regional,Large Format,Extra Large,extended,06:30,22:00,06:30,22:00,07:00,21:00,False
+12,Store 12,Hamilton,Supermarket,Large,standard,07:00,21:00,07:00,21:00,08:00,20:00,False

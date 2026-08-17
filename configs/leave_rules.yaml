@@ -1,0 +1,47 @@
+# =============================================================================
+# Leave Rules Configuration
+# NZ Retail – Remuneration & Workforce Programme
+# =============================================================================
+# These rules encode the NZ Holidays Act 2003 concepts used by the leave
+# engine. They are deliberately simplified and documented for auditability.
+# Review with an employment lawyer before production use.
+# =============================================================================
+
+# Standard working week / day (used for pro-rating and conversions)
+hours_per_week: 40
+hours_per_day: 8
+
+# -----------------------------------------------------------------------------
+# Annual Leave (Holidays Act s.16–21)
+# -----------------------------------------------------------------------------
+annual_leave:
+  weeks_per_year: 4.0            # Statutory: 4 weeks after 12 months
+  vesting_months: 12.0           # Eligibility: continuous employment
+  max_balance_weeks: 8.0         # Internal cap (configurable)
+  accrual_method: "weekly_pro_rata"  # Pro-rated by contracted hours
+
+# -----------------------------------------------------------------------------
+# Sick Leave (Holidays Act s.63–70)
+# -----------------------------------------------------------------------------
+sick_leave:
+  days_per_year: 10.0            # Statutory minimum
+  vesting_months: 6.0            # Eligibility
+  max_balance_days: 20.0         # Internal cap (configurable)
+  accrual_method: "weekly_pro_rata"
+
+# -----------------------------------------------------------------------------
+# Bereavement Leave (Holidays Act s.63–70)
+# -----------------------------------------------------------------------------
+bereavement_leave:
+  days_per_year: 3.0             # Statutory minimum
+  vesting_months: 6.0            # Eligibility
+  accrual_method: "weekly_pro_rata"
+
+# -----------------------------------------------------------------------------
+# Pay calculation method (simplified OWP/AWE flags)
+# -----------------------------------------------------------------------------
+# Options:
+#   - "average_of_last_4_weeks" : ordinary weekly pay, average of last 4 weeks
+#   - "average_weekly_earnings" : average of 52 weeks gross earnings
+#   - "relevant_daily_pay"      : what the employee would have earned that day
+ordinary_weekly_pay_method: "average_of_last_4_weeks"

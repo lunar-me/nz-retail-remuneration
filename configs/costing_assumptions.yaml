@@ -1,0 +1,44 @@
+# =============================================================================
+# Remuneration Costing Assumptions
+# NZ Retail – Remuneration & Workforce Programme
+# =============================================================================
+# These assumptions drive the fully-loaded cost calculations and scenario
+# modelling. All values are configurable and documented for auditability.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# KiwiSaver (employer contribution)
+# -----------------------------------------------------------------------------
+kiwisaver:
+  employer_rate: 0.03                # 3% employer contribution (simplified)
+
+# -----------------------------------------------------------------------------
+# Leave loading (value of leave in the package)
+# -----------------------------------------------------------------------------
+leave_loading:
+  base_rate: 0.08                    # Illustrative 8% value of leave
+  annual_leave_extra_days_cost: 0.02 # Approx. cost of +2 days leave (0.10 total)
+  sick_leave_extra_days_cost: 0.03   # Approx. cost of +5 days sick (0.11 total)
+
+# -----------------------------------------------------------------------------
+# Insurance (employer contribution)
+# -----------------------------------------------------------------------------
+insurance:
+  monthly_employer_cost:
+    mean: 45.0                       # $/month average employer cost
+    std: 15.0                        # $/month std dev
+  hours_per_month: 160               # Assumed hours for per-hour conversion
+
+# -----------------------------------------------------------------------------
+# Flexibility premium
+# -----------------------------------------------------------------------------
+flexibility:
+  premium_max: 0.06                  # Up to 6% loading for high-flexibility staff
+
+# -----------------------------------------------------------------------------
+# Working pattern
+# -----------------------------------------------------------------------------
+working_pattern:
+  hours_per_week: 40                 # Standard full-time hours
+  weeks_per_year: 52                 # Weeks per year for annual costing
+  hours_per_month: 160               # Hours per month for insurance conversion

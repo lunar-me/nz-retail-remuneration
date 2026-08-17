@@ -1,0 +1,299 @@
+﻿# =============================================================================
+# Synthetic Data Generation Configuration
+# NZ Retail – Remuneration & Workforce Programme
+# =============================================================================
+# This file controls the generation of the synthetic data layer.
+# All projects (Leave Engine, Remuneration Costing, Capacity Planner, Scorecard)
+# consume the output produced by these settings.
+#
+# Change values here, then re-run the generator with a fixed seed for
+# fully reproducible datasets.
+# =============================================================================
+
+meta:
+  version: "1.0"
+  description: "Realistic synthetic NZ retail workforce & demand data"
+  seed: 42                          # Fixed seed for reproducibility
+  output_dir: "data/synthetic/v1"
+  start_date: "2024-07-01"          # Inclusive
+  end_date: "2026-06-30"            # Inclusive (24 months)
+  timezone: "Pacific/Auckland"
+
+# -----------------------------------------------------------------------------
+# Store / Location configuration
+# -----------------------------------------------------------------------------
+stores:
+  count: 12
+  regions:
+    - name: "Auckland"
+      weight: 0.42
+    - name: "Wellington"
+      weight: 0.18
+    - name: "Christchurch"
+      weight: 0.15
+    - name: "Hamilton"
+      weight: 0.08
+    - name: "Tauranga"
+      weight: 0.07
+    - name: "Regional"
+      weight: 0.10
+
+  formats:
+    - name: "Supermarket"
+      weight: 0.55
+      typical_size_band: "Large"
+    - name: "Specialty"
+      weight: 0.25
+      typical_size_band: "Medium"
+    - name: "Large Format"
+      weight: 0.20
+      typical_size_band: "Extra Large"
+
+  # Trading hour patterns (used later for roster & demand generation)
+  trading_patterns:
+    standard:
+      weekday_open: "07:00"
+      weekday_close: "21:00"
+      saturday_open: "07:00"
+      saturday_close: "21:00"
+      sunday_open: "08:00"
+      sunday_close: "20:00"
+    extended:                         # larger stores
+      weekday_open: "06:30"
+      weekday_close: "22:00"
+      saturday_open: "06:30"
+      saturday_close: "22:00"
+      sunday_open: "07:00"
+      sunday_close: "21:00"
+
+# -----------------------------------------------------------------------------
+# Employee population
+# -----------------------------------------------------------------------------
+employees:
+  total_target: 650                   # Approximate total headcount across all stores
+
+  employment_type_mix:
+    full_time: 0.28
+    part_time: 0.47
+    casual: 0.25
+
+  # Role / job family distribution (retail-focused)
+  roles:
+    - name: "Checkout / Front End"
+      weight: 0.32
+      typical_hourly_rate_range: [24.50, 28.00]
+    - name: "Grocery / Nightfill"
+      weight: 0.18
+      typical_hourly_rate_range: [24.50, 27.50]
+    - name: "Fresh Foods"
+      weight: 0.16
+      typical_hourly_rate_range: [25.00, 29.50]
+    - name: "Online / Click & Collect"
+      weight: 0.09
+      typical_hourly_rate_range: [25.00, 28.50]
+    - name: "Department Supervisor"
+      weight: 0.10
+      typical_hourly_rate_range: [28.00, 34.00]
+    - name: "Store Management"
+      weight: 0.07
+      typical_hourly_rate_range: [32.00, 48.00]
+    - name: "Other / Support"
+      weight: 0.08
+      typical_hourly_rate_range: [24.50, 30.00]
+
+  # Contracted hours distribution (hours per week)
+  contracted_hours:
+    full_time:
+      mean: 37.5
+      std: 2.5
+      min: 30
+      max: 40
+    part_time:
+      mean: 18
+      std: 6
+      min: 8
+      max: 30
+    casual:
+      mean: 12
+      std: 8
+      min: 0
+      max: 25
+
+  # Tenure mix (affects leave balances and accrual history)
+  tenure_years:
+    mean: 3.8
+    std: 3.2
+    min: 0.1
+    max: 18
+
+  # Flexibility preference (0 = low preference for flexibility, 1 = high)
+  flexibility_preference:
+    mean: 0.62
+    std: 0.22
+
+  # Insurance enrolment probability (income protection / health related)
+  insurance_enrolment_rate: 0.58
+
+# -----------------------------------------------------------------------------
+# Leave configuration (NZ Holidays Act oriented)
+# -----------------------------------------------------------------------------
+leave:
+  types:
+    - code: "ANNUAL"
+      name: "Annual Leave"
+      accrual_rate_hours_per_week: 3.0769   # ~4 weeks on 40h → simplified
+      is_paid: true
+      carries_over: true
+      max_balance_weeks: 8
+    - code: "SICK"
+      name: "Sick Leave"
+      accrual_rate_days_per_year: 10        # current statutory minimum
+      is_paid: true
+      carries_over: true
+      max_balance_days: 20
+    - code: "BEREAVEMENT"
+      name: "Bereavement Leave"
+      accrual_rate_days_per_year: 3
+      is_paid: true
+      carries_over: false
+    - code: "PUBLIC_HOLIDAY"
+      name: "Public Holiday"
+      is_paid: true
+      carries_over: false
+    - code: "ALTERNATIVE"
+      name: "Alternative Holiday"
+      is_paid: true
+      carries_over: true
+    - code: "PARENTAL"
+      name: "Parental Leave"
+      is_paid: false                        # simplified – actual entitlements more complex
+      carries_over: false
+
+  # Usage patterns (probability / intensity modifiers)
+  usage_patterns:
+    annual:
+      peak_months: [12, 1, 4]               # Christmas/New Year + school holidays
+      base_take_rate: 0.85                  # of accrued leave taken over time
+    sick:
+      winter_multiplier: 1.7                # May–September
+      base_days_per_employee_year: 4.8
+    bereavement:
+      annual_probability: 0.09
+
+# -----------------------------------------------------------------------------
+# Roster / Worked hours generation
+# -----------------------------------------------------------------------------
+rosters:
+  # Average utilisation of contracted hours
+  utilisation:
+    full_time: 0.96
+    part_time: 0.88
+    casual: 0.65
+
+  # Shift length preferences (hours)
+  typical_shift_lengths:
+    - 4
+    - 5
+    - 6
+    - 8
+    - 9
+
+  # Penalty / allowance flags (simplified)
+  weekend_work_probability:
+    full_time: 0.55
+    part_time: 0.70
+    casual: 0.80
+
+  public_holiday_work_probability: 0.35
+
+# -----------------------------------------------------------------------------
+# Demand / Activity drivers
+# -----------------------------------------------------------------------------
+demand:
+  # Base daily transaction or sales proxy index (will be scaled by store size)
+  base_daily_index:
+    mean: 100
+    std: 15
+
+  # Weekly seasonality (Monday = 0 … Sunday = 6)
+  day_of_week_multipliers:
+    0: 0.85   # Monday
+    1: 0.90
+    2: 0.95
+    3: 1.00
+    4: 1.15   # Friday
+    5: 1.35   # Saturday
+    6: 1.20   # Sunday
+
+  # Monthly / seasonal effects
+  month_multipliers:
+    1: 0.92    # January (post-Christmas lull)
+    2: 0.95
+    3: 1.00
+    4: 1.05
+    5: 1.00
+    6: 0.98
+    7: 0.97
+    8: 0.98
+    9: 1.02
+    10: 1.05
+    11: 1.10
+    12: 1.35   # Christmas peak
+
+  # Public holiday uplift
+  public_holiday_multiplier: 1.45
+
+  # Simple weather / random noise
+  daily_noise_std: 0.08
+
+  # Labour standard (transactions or index points per labour hour)
+  # Used later by capacity planner
+  labour_productivity:
+    checkout: 28
+    fresh: 18
+    grocery: 22
+    online: 15
+    default: 20
+
+# -----------------------------------------------------------------------------
+# Remuneration components (for costing model)
+# -----------------------------------------------------------------------------
+remuneration:
+  kiwisaver_rate: 0.03                # employer contribution (simplified)
+  leave_loading: 0.08                 # illustrative value of leave in package
+  insurance_monthly_employer_cost:
+    mean: 45
+    std: 15
+  flexibility_premium_max: 0.06       # up to 6% loading for high-flexibility roles/preferences
+
+  # Ordinary pay calculation assumptions (Holidays Act oriented)
+  ordinary_weekly_pay_method: "average_of_last_4_weeks"   # simplified flag
+
+# -----------------------------------------------------------------------------
+# Calendar & NZ reference data
+# -----------------------------------------------------------------------------
+calendar:
+  include_public_holidays: true
+  include_school_terms: true
+  regions_with_anniversary_days:
+    - "Auckland"
+    - "Wellington"
+    - "Canterbury"          # Christchurch
+    - "Waikato"             # Hamilton
+    - "Bay of Plenty"       # Tauranga
+
+# -----------------------------------------------------------------------------
+# Generation control & quality
+# -----------------------------------------------------------------------------
+generation:
+  batch_size: 500
+  validate_schemas: true
+  create_processed_views: true
+  log_level: "INFO"
+
+  # Controlled edge cases to stress-test engines
+  edge_cases:
+    high_leave_balance_employees: 12      # long-tenure staff with large annual leave balances
+    new_starters_last_90_days: 35
+    high_flexibility_preference: 40
+    tight_capacity_stores: 2              # stores that will frequently show under-capacity

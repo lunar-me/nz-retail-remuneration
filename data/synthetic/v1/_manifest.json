@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "seed": 42,
+  "generated_at": "2026-08-16T16:41:02.284907",
+  "tables": {
+    "stores": 12,
+    "employees": 650,
+    "leave_types": 6,
+    "leave_transactions": 122209,
+    "rosters": 180940,
+    "demand": 8760,
+    "remuneration_components": 650,
+    "calendar_nz": 730
+  },
+  "description": "Realistic synthetic NZ retail workforce & demand data",
+  "start_date": "2024-07-01",
+  "end_date": "2026-06-30",
+  "timezone": "Pacific/Auckland"
+}
